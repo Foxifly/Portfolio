@@ -3,10 +3,10 @@ import React, { Component } from "react";
 class AboutMe extends Component {
   render() {
     return (
-      <article class="about" id="about">
+      <article className="about" id="about">
         <h2>About Me</h2>
         <img
-          class="about-me-pic"
+          className="about-me-pic"
           src="../resources/img/about-me.jpg"
           alt="picture of Lindsay Ciastko"
         />
