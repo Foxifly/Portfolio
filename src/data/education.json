@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Udacity",
+    "type": "Front End Development",
+    "logo": "../img/udacity-logo.png",
+    "date": "April 2018 - October 2018",
+    "description": "Nanodegree scholarship obtained through Grow with Google April 2018. Completed 7 projects.",
+    "long_description": "",
+    "certificate": "../img/FrontEndDev-Certificate.svg",
+    "certificate_url": "https://confirm.udacity.com/WKVSX4PP",
+    "course_link": "",
+  },
+  {
+    "name": "Codecademy",
+    "type": "Building Web Applications",
+    "logo": "../img/codecademy-logo.png",
+    "date": "April 2018 - June 2018",
+    "description": "Learned how to develop interactive front-end applications using JavaScript and React.JS.",
+    "long_description": "",
+    "certificate": "../img/FrontEndApps-Credential.png",
+    "certificate_url": "https://www.credential.net/9mf16v0r",
+    "course_link": "https://help.codecademy.com/hc/en-us/articles/115000727594-What-curriculum-is-covered-in-Build-Front-End-Apps-from-Scratch",
+  },
+  {
+    "name": "Codecademy",
+    "type": "Building Website UIs",
+    "logo": "../img/codecademy-logo.png",
+    "date": "April 2018 - June 2018",
+    "description": "Studied in-depth concepts of website usability, accessibility, color theory, typography, and layouts using HTML and CSS.",
+    "long_description": "",
+    "certificate": "../img/BuildWebsiteUIs-Credential.png",
+    "certificate_url": "https://www.credential.net/bjazfapw",
+    "course_link": "https://help.codecademy.com/hc/en-us/articles/115003852494-What-curriculum-is-covered-in-Build-Website-UIs",
+  },
+
+]

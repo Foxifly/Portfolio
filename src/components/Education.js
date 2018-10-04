@@ -15,8 +15,8 @@ render() {
 
         <div className="education-content">
           <h3>Codecademy</h3>
-          <h4>Building Web Apps from Scratch</h4>
-          <p>Learned how to develop interactive front-end applications using JavaScript and React.JS to develop an app that uses the Spotify API.</p>
+          <h4>Building Web Apps</h4>
+          <p>Learned how to develop interactive front-end applications using JavaScript and React.JS.</p>
           <button className="more-info">More Info</button>
         </div>
         <div className="education-content">
