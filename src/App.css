@@ -137,7 +137,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 10;
   margin: 0;
   width: 100%;
@@ -150,45 +150,49 @@ h3 {
   display: grid;
  grid-template-columns: repeat(4, 1fr);
  grid-column-gap: 10px;
- grid-row-gap: 30px;
+ grid-row-gap: 5px;
  grid-template-areas:
    'heading heading heading heading'
-   'cert cert date date'
-   'cert cert logo .'
-   'cert cert link link'
-   'desc desc desc desc'
-   '. close close .';
+   'date date . .'
+   'cert cert link1 link2'
+   'cert cert desc desc'
+   'cert cert desc desc'
+   '. close close . ';
  align-items: center;
  justify-content: center;
   text-align: center;
   background-color: white;
   margin: auto;
-  padding:  0px;
-  border-radius: 3px;
+  padding:  30px;
+  border-radius: 4px;
+box-shadow: 5px 8px rgba(0,0,0,0.3);
   width: 50%;
 }
 
 .heading-wrapper {
   grid-area: heading;
-  padding-top: 10px;
-  color: white;
-  background-color: #666;
 }
 
-.program-logo-wrapper {
-   grid-area: logo;
-}
 
 .cert-img-wrapper {
   grid-area: cert;
+
 }
 
 .close-button-wrapper {
   grid-area: close;
 }
 
-.course-link-wrapper {
-  grid-area: link;
+.course-link-wrapper-1{
+  grid-area: link1;
+
+
+}
+.course-link-wrapper-2{
+  grid-area: link2;
+
+
+
 }
 .description-wrapper {
 grid-area: desc;
@@ -202,20 +206,42 @@ grid-area: date;
   height: auto;
 }
 
-.program-logo {
-  width: 100px;
-  height: auto;
-}
 
 .edu-link  {
-  width: 150px;
-  padding: 10px;
+  padding: 12px;
   color: white;
   background-color: #17063A;
   margin: 0 auto;
   text-decoration: none;
+    border-radius: 3px;
+    transition: ease-in-out 0.2s;
+}
+.edu-link:hover  {
+  background-color: #453761;
+
+}
+button {
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  background-color: #453761;
+  cursor: pointer;
+  margin: 0 auto;
+  text-decoration: none;
+    border-radius: 5px;
+    transition: ease-in-out 0.2s;
+    font-size: 14px;
+}
+button:hover {
+  background-color: #6a5e80;
 }
 
 .edu-link:visited  {
   color: white;
+}
+
+.description-wrapper p{
+  font-size: 14px;
+  text-align: justify;
+
 }

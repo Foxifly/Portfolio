@@ -35,13 +35,6 @@ class Credential extends Component {
               <h4>{course.name}</h4>
               </div>
 
-              <div className="program-logo-wrapper">
-                <img
-                  className="program-logo"
-                  alt={`${course.name} logo`}
-                  src={course.logo}
-                />
-              </div>
               <div className="cert-img-wrapper">
                 <img
                   className="cert-img"
@@ -57,7 +50,7 @@ class Credential extends Component {
               <p>{course.long_description}</p>
               </div>
 
-              <div className="course-link-wrapper">
+              <div className="course-link-wrapper-1">
 
                 <a
                 className="edu-link"
@@ -65,19 +58,21 @@ class Credential extends Component {
                   rel="noopener noreferrer"
                   href={course.certificate_url}
                 >
-                  Certificate Link
+                  Certificate
                 </a>
 
-                <br/>
+                </div>
+
+                <div className="course-link-wrapper-2">
                 <a
                   className="edu-link"
                   target="_blank"
                   rel="noopener noreferrer"
                   href={course.course_url}
                 >
-                  Course Link
+                  Course
                 </a>
-            
+
               </div>
 
               <div className="close-button-wrapper">
