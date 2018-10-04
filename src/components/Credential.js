@@ -3,14 +3,16 @@ import React, { Component } from "react";
 class Credential extends Component {
   constructor(props) {
     super(props);
-    state = {
+    this.state = {
       modal: false
-    }
+    };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick() {
-    console.log("HEY");
+    this.setState({
+      modal: !this.state.modal
+    });
   }
 
   render() {
@@ -24,11 +26,73 @@ class Credential extends Component {
         <button onClick={this.handleClick} className="more-info">
           More Info
         </button>
+
+        {modal && (
+          <div aria-hidden={!this.state.modal} className="modal">
+            <div className="edu-modal-content">
+            <div className="heading-wrapper">
+              <h3 id="name">{course.type}</h3>
+              <h4>{course.name}</h4>
+              </div>
+
+              <div className="program-logo-wrapper">
+                <img
+                  className="program-logo"
+                  alt={`${course.name} logo`}
+                  src={course.logo}
+                />
+              </div>
+              <div className="cert-img-wrapper">
+                <img
+                  className="cert-img"
+                  alt={`${course.type} certificate from ${course.name}`}
+                  src={course.certificate}
+                />
+              </div>
+              <div className="date-wrapper">
+              <p>{course.date}</p>
+              </div>
+
+              <div className="description-wrapper">
+              <p>{course.long_description}</p>
+              </div>
+
+              <div className="course-link-wrapper">
+
+                <a
+                className="edu-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={course.certificate_url}
+                >
+                  Certificate Link
+                </a>
+
+                <br/>
+                <a
+                  className="edu-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={course.course_url}
+                >
+                  Course Link
+                </a>
+            
+              </div>
+
+              <div className="close-button-wrapper">
+                <button
+                  onClick={this.handleClick}
+                  className="invalid-input-button"
+                >
+                  Close
+                </button>
+              </div>
+
+            </div>
+          </div>
+        )}
       </div>
-
-      {modal &&
-
-      }
     );
   }
 }

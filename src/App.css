@@ -131,3 +131,91 @@ h3 {
   text-align: center;
   padding: 20px;
 }
+
+
+.modal {
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 10;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  top:0;
+  left: 0;
+}
+.modal-content, .edu-modal-content {
+  display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-column-gap: 10px;
+ grid-row-gap: 30px;
+ grid-template-areas:
+   'heading heading heading heading'
+   'cert cert date date'
+   'cert cert logo .'
+   'cert cert link link'
+   'desc desc desc desc'
+   '. close close .';
+ align-items: center;
+ justify-content: center;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  padding:  0px;
+  border-radius: 3px;
+  width: 50%;
+}
+
+.heading-wrapper {
+  grid-area: heading;
+  padding-top: 10px;
+  color: white;
+  background-color: #666;
+}
+
+.program-logo-wrapper {
+   grid-area: logo;
+}
+
+.cert-img-wrapper {
+  grid-area: cert;
+}
+
+.close-button-wrapper {
+  grid-area: close;
+}
+
+.course-link-wrapper {
+  grid-area: link;
+}
+.description-wrapper {
+grid-area: desc;
+}
+.date-wrapper {
+grid-area: date;
+}
+
+.cert-img {
+  width: 100%;
+  height: auto;
+}
+
+.program-logo {
+  width: 100px;
+  height: auto;
+}
+
+.edu-link  {
+  width: 150px;
+  padding: 10px;
+  color: white;
+  background-color: #17063A;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.edu-link:visited  {
+  color: white;
+}
