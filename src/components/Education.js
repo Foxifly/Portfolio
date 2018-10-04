@@ -11,7 +11,7 @@ render() {
       <div className="education-container">
       {
         courseWork.map(course=>{
-            return <Credential course={course}/>
+            return <Credential key={course.key} course={course}/>
         })
       }
 

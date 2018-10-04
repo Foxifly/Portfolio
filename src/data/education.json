@@ -1,5 +1,6 @@
 [
   {
+    "key": "1",
     "name": "Udacity",
     "type": "Front End Development",
     "logo": "../img/udacity-logo.png",
@@ -11,6 +12,7 @@
     "course_link": ""
   },
   {
+    "key": "2",
     "name": "Codecademy",
     "type": "Building Web Applications",
     "logo": "../img/codecademy-logo.png",
@@ -22,6 +24,7 @@
     "course_link": "https://help.codecademy.com/hc/en-us/articles/115000727594-What-curriculum-is-covered-in-Build-Front-End-Apps-from-Scratch"
   },
   {
+    "key": "3",
     "name": "Codecademy",
     "type": "Building Website UIs",
     "logo": "../img/codecademy-logo.png",
