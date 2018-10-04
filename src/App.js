@@ -1,31 +1,24 @@
 import React, { Component } from 'react';
-import NavBar from './components/NavBar';
-import AboutMe from './components/AboutMe';
-import Education from './components/Education';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import data from "./data/data.json"
+import Main from "./components/Main";
+import data from "./data/data.json";
+import education from "./data/education.json";
 import './App.css';
 
 class App extends Component {
   state = {
-    projectList: []
+    projectList: [],
+    courseWork: []
   }
   componentWillMount() {
     this.setState({
-      projectList: data
+      projectList: data,
+      courseWork: education
     })
   }
   render() {
-    const {projectList} = this.state;
+    const {projectList, courseWork} = this.state;
     return (
-      <div className="App">
-        <NavBar/>
-        <AboutMe/>
-        <Education/>
-        <Projects projectList={projectList}/>
-        <Contact/>
-      </div>
+      <Main courseWork={courseWork} projectList={projectList}/>
     );
   }
 }
