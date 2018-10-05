@@ -4,13 +4,16 @@ import AboutMe from './AboutMe';
 import Education from './Education';
 import Projects from './Projects';
 import Contact from './Contact';
+import MainLanding from "./MainLanding";
 
 class Main extends Component {
   render() {
-    const {projectList, courseWork} = this.props;
+    const {courseWork, projectList} = this.props;
     return (
       <div className="App">
+
         <NavBar/>
+        <MainLanding/>
         <AboutMe/>
         <Education courseWork={courseWork}/>
         <Projects projectList={projectList}/>

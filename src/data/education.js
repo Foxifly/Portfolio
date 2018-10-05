@@ -18,7 +18,7 @@ const education = [
     "logo": require("../img/codecademy-logo.png"),
     "date": "April 2018 - June 2018",
     "description": "Learned how to develop interactive front-end applications using JavaScript and React.JS.",
-    "long_description": "",
+    "long_description": "Completed an 8 week interactive course that discussed the basics of JavaScript, Object Oriented Javascript, and React.JS. To complete the program, the final capstone project was a React Application that connects with the Spotify API. This application allowed users to search for songs from spotify, create a playlist, and push that playlist on Spotify. This project taught me how to utilize requests, React, and JavaScript to create my first React project.",
     "certificate": require("../img/FrontEndApps-Credential.png"),
     "certificate_url": "https://www.credential.net/9mf16v0r",
     "course_url": "https://help.codecademy.com/hc/en-us/articles/115000727594-What-curriculum-is-covered-in-Build-Front-End-Apps-from-Scratch"
@@ -30,7 +30,7 @@ const education = [
     "logo": require("../img/codecademy-logo.png"),
     "date": "April 2018 - June 2018",
     "description": "Studied in-depth concepts of website usability, accessibility, color theory, typography, and layouts using HTML and CSS.",
-    "long_description": "",
+    "long_description": "Completed an 8 week interactive course that discussed the design aspect of HTML and CSS. Covered topics in color theory, typography, and layouts. Additionally, discussed the accessibility aspect of web design. Learned about ARIA roles and labels and how they are utilized and beneficial in everyday HTML. For the capstone project, I took existing HTML and CSS to redesign an imaginary eCommerence website. I made the website responsive using CSS Grid, and added colors for a more user friendly UI. ",
     "certificate": require("../img/BuildWebsiteUIs-Credential.png"),
     "certificate_url": "https://www.credential.net/bjazfapw",
     "course_url": "https://help.codecademy.com/hc/en-us/articles/115003852494-What-curriculum-is-covered-in-Build-Website-UIs"

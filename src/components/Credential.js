@@ -31,8 +31,8 @@ class Credential extends Component {
           <div aria-hidden={!this.state.modal} className="modal">
             <div className="edu-modal-content">
             <div className="heading-wrapper">
-              <h3 id="name">{course.type}</h3>
-              <h4>{course.name}</h4>
+              <h3 id="name">{course.type} ({course.name})</h3>
+              <h4>{course.date}</h4>
               </div>
 
               <div className="cert-img-wrapper">
@@ -41,9 +41,6 @@ class Credential extends Component {
                   alt={`${course.type} certificate from ${course.name}`}
                   src={course.certificate}
                 />
-              </div>
-              <div className="date-wrapper">
-              <p>{course.date}</p>
               </div>
 
               <div className="description-wrapper">
