@@ -4,6 +4,9 @@ body {
   margin: 0;
   height: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 ul {
   padding: 0;
@@ -21,6 +24,7 @@ nav {
   align-items: center;
   padding: 15px;
   margin-top: 0;
+  z-index: 10;
 }
 
 h1,
@@ -242,6 +246,9 @@ button:hover {
   height: 100vh;
 }
 
+
+
+
 h1 {
   text-align: center;
   color: white;
@@ -249,16 +256,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 42px;
-}
-
-
-.code-icon {
-  color: white;
-  font-size: 26px;
-  margin: 0;
-  padding: 0;
-  float: right;
-  padding-right: 10px;
+  animation: fadeIn 4s;
 }
 
 .spacing {
@@ -266,10 +264,125 @@ h1 {
 }
 
 .name-wrapper {
+  position: absolute;
   background-color: #5e596a;
   border-radius: 0px 50px 50px 0px;
   width: 30%;
   padding: 20px;
+  transform: translate(-500px);
+  animation: comeIn 4s forwards;
+
+}
+
+.nav-container {
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+
+.nav-wrapper-a, .nav-wrapper-b, .nav-wrapper-c, .nav-wrapper-d {
+  position: relative;
+  background-color: #5e596a;
+  border-radius: 50px 0px 0px 50px;
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.nav-wrapper-a {
+  animation: comeInOpp 2.8s forwards;
+}
+.nav-wrapper-b {
+  animation: comeInOpp 2.6s forwards;
+}
+.nav-wrapper-c {
+  animation: comeInOpp 2.4s forwards;
+}
+.nav-wrapper-d {
+  animation: comeInOpp 2.2s forwards;
+}
+
+@keyframes comeInOpp {
+  0% {
+    transform: translate(500px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@keyframes comeIn {
+  0% {
+    transform: translate(-500px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+
+/* * {
+  border: 1px solid red;
+} */
+
+.icon-container {
+
+  position: absolute;
+  margin: 0 auto;
+  left: 20px;
+  top: 42%;
+  left: 35%;
+  text-align: center;
+
+  animation: 8s ease 0s normal forwards 1 fadein;
+
+}
+
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.code-icon {
+  color: white;
+  font-size: 40px;
+  padding: 0;
+  padding-right: 10px;
+  float: left;
+}
+
+.desc-word-1,.desc-word-2, .desc-word-3 {
+  color: white;
+  font-size: 32px;
+  font-family: 'Fjalla One', sans-serif;
+  animation: fadeIn 0.7s;
+  text-align: left;
+  float:left;
+  margin: 10px;
+}
+
+.desc-word-wrapper {
+  position: absolute;
+  margin: 0 auto;
+  left: 30%;
+  top: 40%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+
+.go-down {
+  position: absolute;
+  color: white;
+  font-size: 90px;
+  margin: 40% 45%;
 }
 
 
@@ -296,23 +409,3 @@ import ProfilePhoto from '../img/profile-photo.jpg';
 
 
 }*/
-
-.icon-container {
-  position: absolute;
-}
-
-.desc-words {
-  color: white;
-  font-size: 32px;
-  font-family: 'Fjalla One', sans-serif;
-  animation: fadeIn 0.7s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0
-  }
-  100% {
-    opacity: 1
-  }
-}
