@@ -4,6 +4,7 @@ body {
   margin: 0;
   height: 100%;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -152,7 +153,7 @@ h3 {
 
 .modal-content, .edu-modal-content {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+
   grid-column-gap: 15px;
   grid-row-gap: 10px;
   grid-template-areas:
@@ -243,15 +244,14 @@ button:hover {
 
 .main-landing {
   background-color: #373045;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
 }
-
-
-
 
 h1 {
   text-align: center;
   color: white;
+
   font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -259,62 +259,82 @@ h1 {
   animation: fadeIn 4s;
 }
 
-.spacing {
-  height: 100px;
-}
-
 .name-wrapper {
-  position: absolute;
   background-color: #5e596a;
   border-radius: 0px 50px 50px 0px;
-  width: 30%;
-  padding: 20px;
-  transform: translate(-500px);
-  animation: comeIn 4s forwards;
-
+  width: 40%;
+  padding: 15px;
+  align-self: center;
+  animation: comeIn 3s forwards;
 }
 
 .nav-container {
-  position: absolute;
+/*   position: absolute;
   right: 0;
-  top: 20%;
+ top: 20%;*/
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.nav-container a:visited {
+  color: white;
+  text-decoration: none;
 }
 
 .nav-wrapper-a, .nav-wrapper-b, .nav-wrapper-c, .nav-wrapper-d {
-  position: relative;
   background-color: #5e596a;
   border-radius: 50px 0px 0px 50px;
-  width: 100%;
-  padding: 20px;
-  margin: 20px;
+  padding: 20px 30px;
+  margin: 10px 0px;
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  transition: ease-in-out 0.2s;
+  width: 40%;
+  float: right;
+}
 
+.nav-wrapper-a:hover, .nav-wrapper-b:hover, .nav-wrapper-c:hover, .nav-wrapper-d:hover {
+  background-color: #7e7a87;
 }
 
 .nav-wrapper-a {
-  animation: comeInOpp 2.8s forwards;
+  animation: comeInOpp 1.8s forwards;
 }
+
 .nav-wrapper-b {
-  animation: comeInOpp 2.6s forwards;
+  animation: comeInOpp 1.6s forwards;
 }
+
 .nav-wrapper-c {
-  animation: comeInOpp 2.4s forwards;
+  animation: comeInOpp 1.4s forwards;
 }
+
 .nav-wrapper-d {
-  animation: comeInOpp 2.2s forwards;
+  animation: comeInOpp 1.2s forwards;
 }
 
 @keyframes comeInOpp {
   0% {
     transform: translate(500px);
   }
+
   100% {
     transform: translate(0px);
   }
 }
+
 @keyframes comeIn {
   0% {
     transform: translate(-500px);
   }
+
   100% {
     transform: translate(0px);
   }
@@ -323,24 +343,49 @@ h1 {
 /* * {
   border: 1px solid red;
 } */
-
 .icon-container {
-
-  position: absolute;
-  margin: 0 auto;
-  left: 20px;
-  top: 42%;
-  left: 35%;
   text-align: center;
-
-  animation: 8s ease 0s normal forwards 1 fadein;
-
+  animation: 6.5s ease 0s normal forwards 1 fadein;
 }
 
-@keyframes fadein{
-    0% { opacity:0; }
-    66% { opacity:0; }
-    100% { opacity:1; }
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  66% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+
+  60% {
+    transform: translateY(0px);
+  }
+
+  70% {
+    transform: translateY(-10px);
+  }
+
+  80% {
+    transform: translateY(0px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .code-icon {
@@ -351,27 +396,21 @@ h1 {
   float: left;
 }
 
-.desc-word-1,.desc-word-2, .desc-word-3 {
+.desc-word-1, .desc-word-2, .desc-word-3 {
   color: white;
   font-size: 32px;
   font-family: 'Fjalla One', sans-serif;
   animation: fadeIn 0.7s;
   text-align: left;
-  float:left;
+  float: left;
   margin: 10px;
-}
-
-.desc-word-wrapper {
-  position: absolute;
-  margin: 0 auto;
-  left: 30%;
-  top: 40%;
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0
   }
+
   100% {
     opacity: 1
   }
@@ -379,12 +418,11 @@ h1 {
 
 
 .go-down {
-  position: absolute;
   color: white;
   font-size: 90px;
-  margin: 40% 45%;
+  text-align: center;
+  animation: bounce 5s infinite;
 }
-
 
 /*
 <div className="image-wrapper">
@@ -409,3 +447,147 @@ import ProfilePhoto from '../img/profile-photo.jpg';
 
 
 }*/
+
+
+.topbar {
+  visibility: visibile;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+
+.main-landing {
+ display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+  '. . . .'
+    'nameW nameW nameW .'
+    '. descW descW navW'
+    '. iconW iconW navW'
+    '. . . navW'
+    '. downW downW . ';
+}
+.name-wrapper  {
+  grid-area: nameW
+}
+
+.icon-container{
+   grid-area: iconW;
+    justify-self: center;
+}
+.desc-word-wrapper {
+   grid-area: descW;
+   justify-self: center;
+   align-self: flex-end;
+}
+.down{
+   grid-area: downW
+}
+
+.nav-container {
+   grid-area: navW
+}
+
+@media screen and (max-height: 525px) {
+  .main-landing {
+    grid-template-areas:
+      '. . . .'
+      'nameW nameW navW navW'
+      '. .  navW navW'
+      '. descW descW .'
+      '. iconW iconW .'
+      '. downW downW . ';
+  }
+
+  .nav-container  {
+    margin:0 auto;
+  }
+  .nav-container a {
+    justify-self:center;
+    float:left;
+    margin:20px;
+  }
+
+  .nav-wrapper-a, .nav-wrapper-b, .nav-wrapper-c, .nav-wrapper-d {
+    width:90%;
+    padding:10px;
+    border-radius: 50px;
+  }
+
+}
+
+@media screen and (max-height: 400px) {
+.down {
+  display: none;
+}
+
+}
+
+@media screen and (max-height: 260px) {
+.icon-container {
+  align-self: flex-start;
+}
+.code-icon {
+  margin: 0;
+}
+
+}
+
+@media screen and (max-width: 1125px) {
+  .name-wrapper {
+    width: 60%
+  }
+  .main-landing {
+    grid-template-areas:
+    '. . . .'
+      'nameW nameW nameW .'
+      'descW descW descW navW'
+      'iconW iconW iconW navW'
+      '. . . navW'
+      '. downW downW . ';
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .main-landing {
+    justify-content: center;
+    grid-template-areas:
+      'nameW nameW nameW nameW'
+      'descW descW descW descW'
+      'iconW iconW iconW iconW'
+      'navW navW navW navW'
+      '. downW downW . ';
+  }
+  .name-wrapper {
+    width: 100%;
+    margin-top:0;
+    margin:0 auto;
+  }
+  .nav-container  {
+    margin:0 auto;
+  }
+  .nav-container a {
+    justify-self:center;
+    float:left;
+    margin:20px;
+  }
+
+  .nav-wrapper-a, .nav-wrapper-b, .nav-wrapper-c, .nav-wrapper-d {
+    width:90%;
+    padding:10px;
+    border-radius: 50px;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+  .nav-container a {
+    justify-self:center;
+    float:left;
+    margin:10px;
+  }
+}

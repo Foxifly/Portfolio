@@ -36,13 +36,13 @@ class MainLanding extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ designHidden: false });
-    }, 3000);
+    }, 2000);
     setTimeout(() => {
       this.setState({ developmentHidden: false });
-    }, 4000);
+    }, 3000);
     setTimeout(() => {
       this.setState({ determinationHidden: false });
-    }, 5000);
+    }, 4000);
   }
 
   render() {
@@ -50,7 +50,6 @@ class MainLanding extends Component {
     return (
       <div>
         <div className="main-landing">
-          <div className="spacing" />
           <div className="name-wrapper">
             <h1> Lindsay Ciastko</h1>
           </div>
@@ -93,28 +92,31 @@ class MainLanding extends Component {
               <h2 className="desc-word-3">Determination.</h2>
             )}
           </div>
+          <div className="down">
           <a href="#about">
             <div className="go-down">
               <FontAwesomeIcon icon={["fas", "chevron-circle-down"]} />
             </div>
           </a>
+          </div>
 
           <div className="nav-container">
-          <div className="nav-wrapper-a">
-            <a href="#projects">ABOUT</a>
-          </div>
-          <div className="nav-wrapper-b">
-            <a href="#projects">EDUCATION</a>
-          </div>
-          <div className="nav-wrapper-c">
-            <a href="#projects">PROJECTS</a>
-          </div>
-          <div className="nav-wrapper-d">
-            <a href="#projects">CONTACT</a>
-          </div>
+            <a href="#about">
+              <div className="nav-wrapper-a">ABOUT</div>
+            </a>
 
-</div>
+            <a href="#education">
+              <div className="nav-wrapper-b">EDUCATION</div>
+            </a>
 
+            <a href="#projects">
+              <div className="nav-wrapper-c">PROJECTS</div>
+            </a>
+
+            <a href="#contact">
+              <div className="nav-wrapper-d">CONTACT</div>
+            </a>
+          </div>
         </div>
       </div>
     );
