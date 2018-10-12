@@ -1,0 +1,175 @@
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #211c29;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-top: 0;
+  z-index: 10;
+}
+
+@keyframes comeInOpp {
+  0% {
+    transform: translate(500px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
+}
+
+
+@keyframes comeIn {
+  0% {
+    transform: translate(-500px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  66% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+
+  60% {
+    transform: translateY(0px);
+  }
+
+  70% {
+    transform: translateY(-10px);
+  }
+
+  80% {
+    transform: translateY(0px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.icon-container {
+  text-align: center;
+  animation: 6.5s ease 0s normal forwards 1 fadein;
+}
+
+.name-wrapper {
+  background-color: #5e596a;
+  border-radius: 0px 50px 50px 0px;
+  width: 40%;
+  padding: 15px;
+  align-self: center;
+  animation: comeIn 3s forwards;
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.nav-container a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-wrapper-a, .nav-wrapper-b, .nav-wrapper-c, .nav-wrapper-d {
+  background-color: #5e596a;
+  border-radius: 50px 0px 0px 50px;
+  padding: 20px 30px;
+  margin: 10px 0px;
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  transition: ease-in-out 0.2s;
+  width: 40%;
+  float: right;
+}
+
+.nav-wrapper-a:hover, .nav-wrapper-b:hover, .nav-wrapper-c:hover, .nav-wrapper-d:hover {
+  background-color: #7e7a87;
+}
+
+.nav-wrapper-a {
+  animation: comeInOpp 1.8s forwards;
+}
+
+.nav-wrapper-b {
+  animation: comeInOpp 1.6s forwards;
+}
+
+.nav-wrapper-c {
+  animation: comeInOpp 1.4s forwards;
+}
+
+.nav-wrapper-d {
+  animation: comeInOpp 1.2s forwards;
+}
+
+
+
+.logo,
+.sm-nav-list,
+.nav-list {
+  font-family: "Dosis", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 33.33333%;
+}
+
+.logo,
+.sm-nav-item,
+.nav-item {
+  list-style: none;
+}
+
+.sm-nav-item {
+  font-size: 26px;
+  padding: 0px 10px;
+}
+
+.nav-item {
+  color: grey;
+}
+
+.nav-item-link {
+  text-decoration: none;
+  color: gray;
+  padding: 20px;
+}
+
+.nav-item-link:hover>.nav-item {
+  border-bottom: 1px solid white;
+}
+
+.selected {
+  color: white;
+}

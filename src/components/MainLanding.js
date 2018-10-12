@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ReactTimeout from "react-timeout";
+import '../css/mainlanding.css';
 
 import {
   faReact,

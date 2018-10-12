@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import Project from "./Project";
+import "../css/projects.css";
 
 class Projects extends Component {
   render() {
     const { projectList } = this.props;
     return (
       <article className="projects" id="projects">
-        <h2>All my things to show off</h2>
+      <div className="project-heading-wrapper">
+        <h2>Projects</h2>
+        </div>
         <div className="project-container">
           {projectList.map(project => {
             return <Project projectInfo={project} />;

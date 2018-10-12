@@ -1,0 +1,32 @@
+.education {
+  background-color: #9b97a2;
+  margin: 0;
+  padding-top:60px;
+}
+
+.education-container {
+  display: grid;
+  grid-gap: 25px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 20%);
+  padding: 20px;
+}
+
+.education-content {
+  background-color: #d0c9de;
+  box-shadow: 3px 3px #c5bcd6;
+  text-align: center;
+  padding: 20px;
+}
+
+.education-heading-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  width: 25%;
+  background-color: green;
+  left: 0;
+  padding: 10px;
+  background-color: #5E586A;
+  border-radius: 50px;
+  color: white;
+}

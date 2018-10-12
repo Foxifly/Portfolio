@@ -1,0 +1,29 @@
+.projects {
+  background-color: #afacb4;
+}
+
+.project-container {
+  display: grid;
+  grid-gap: 25px;
+  justify-content: center;
+  grid-template-columns: repeat(4, 20%);
+  padding: 20px;
+}
+
+.project-content {
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.project-heading-wrapper {
+  text-align: center;
+  margin: 0 auto;
+  width: 25%;
+  background-color: green;
+  left: 0;
+  padding: 10px;
+  background-color: #5E586A;
+  border-radius: 50px;
+  color: white;
+}
