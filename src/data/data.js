@@ -1,8 +1,8 @@
-[
+const data = [
   {
     "name": "Spur of the Moment",
     "language": ["React.JS", "JavaScript", "HTML", "CSS"],
-    "image": "",
+    "image": require("../img/spurofthemoment.png"),
     "date": "September 2018",
     "github": "https://github.com/Foxifly/Udacity-Map-Project",
     "demo": "https://foxifly.github.io/Udacity-Map-Project/",
@@ -11,7 +11,7 @@
   {
     "name": "Arcade Game Clone",
     "language": ["JavaScript", "HTML", "CSS"],
-    "image": "IMG",
+    "image": require("../img/froggerclone.png"),
     "date": "August 2018",
     "github": "https://github.com/Foxifly/Arcade-Game-Clone",
     "demo": "https://udacity.foxifly.net/FroggerClone/Arcade%20Game%20Clone/",
@@ -19,7 +19,7 @@
   },
   {
     "name": "Memory Game",
-    "image": "IMG",
+    "image": require("../img/memorygame.png"),
     "language": ["JavaScript", "jQuery", "HTML", "CSS"],
     "date": "May 2018",
     "github": "https://github.com/Foxifly/Udacity-Memory-Game",
@@ -28,7 +28,7 @@
   },
   {
     "name": "Fox Bot",
-    "image": "IMG",
+    "image": require("../img/foxbot.png"),
     "language": ["Node.JS"],
     "date": "Ongoing",
     "github": "",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Fox Den EDM Website",
-    "image": "IMG",
+    "image": require("../img/foxdensite.png"),
     "language": ["React", "JavaScript", "Express.js", "HTML", "CSS"],
     "date": "November 2018",
     "github": "",
@@ -55,7 +55,7 @@
   },
   {
     "name": "My Reads",
-    "image": "IMG",
+    "image": require("../img/udacity-logo.png"),
     "language": ["React.JS", "JavaScript"],
     "date": "September 2018",
     "github": "https://github.com/Foxifly/My-Reads-Project",
@@ -64,7 +64,7 @@
   },
   {
     "name": "Pixel Art Maker",
-    "image": "IMG",
+    "image": require("../img/pixelartmaker.png"),
     "language": ["JavaScript", "JQuery", "CSS", "HTML"],
     "date": "September 2018",
     "github": "https://github.com/Foxifly/My-Reads-Project",
@@ -74,3 +74,5 @@
 
 
 ]
+
+export default data;

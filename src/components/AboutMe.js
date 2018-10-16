@@ -7,7 +7,7 @@ class AboutMe extends Component {
     return (
       <article className="about" id="about">
         <div className="about-heading-wrapper">
-          <h2>About Me</h2>
+          <h2>About</h2>
         </div>
         <div className="about-container">
           <div className="image-wrapper">
