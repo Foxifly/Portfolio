@@ -1,7 +1,8 @@
 .education {
-  background-color: #9b97a2;
+  background-color: #ebeaec;
   margin: 0;
-  padding-top:60px;
+  padding:50px 0 50px 0;
+  border-top: 1px solid #c3c0c7;
 }
 
 .education-container {
@@ -13,20 +14,38 @@
 }
 
 .education-content {
-  background-color: #d0c9de;
-  box-shadow: 3px 3px #c5bcd6;
+  background-color: white;
+  box-shadow: 10px 10px 43px -5px rgba(0,0,0,0.75);
   text-align: center;
   padding: 20px;
+  border-radius: 5px;
 }
 
 .education-heading-wrapper {
   text-align: center;
-  margin: 0 auto;
-  width: 25%;
+  width: 20%;
   background-color: green;
   left: 0;
   padding: 10px;
   background-color: #5E586A;
-  border-radius: 50px;
+  border-radius: 0 50px 50px 0px;
   color: white;
+}
+.education-content h3 {
+  text-transform: uppercase;
+  color: #373045;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.education-content p {
+  color: #373045;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.course-logo {
+  padding-top: 10px;
+  width: 50%;
 }

@@ -20,8 +20,8 @@ class Credential extends Component {
     const { modal } = this.state;
     return (
       <div className="education-content">
-        <h3>{course.name}</h3>
-        <h4>{course.type}</h4>
+        <h3>{course.type}</h3>
+        <img alt={course.name} className="course-logo" src={course.logo}/>
         <p>{course.description}</p>
         <button onClick={this.handleClick} className="more-info">
           More Info

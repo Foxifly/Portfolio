@@ -8,7 +8,7 @@ render() {
     const {courseWork} = this.props;
   return(
     <article className="education" id="education">
-    <div class="education-heading-wrapper">
+    <div className="education-heading-wrapper">
       <h2>Education</h2>
       </div>
       <div className="education-container">
