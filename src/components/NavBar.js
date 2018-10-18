@@ -17,8 +17,6 @@ class NavBar extends Component {
     this.hideBar = this.hideBar.bind(this);
   }
   hideBar() {
-    let { isHide } = this.state;
-    console.log(window.scrollY);
 
     if (window.scrollY > 710) {
       this.setState({ isHide: false });

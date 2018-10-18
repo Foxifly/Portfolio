@@ -2,7 +2,7 @@ const data = [
   {
     "name": "Spur of the Moment",
     "language": ["React.JS", "JavaScript", "HTML", "CSS"],
-    "image": require("../img/spurofthemoment.png"),
+    "image": require("../img/spurofthemoment.jpg"),
     "date": "September 2018",
     "github": "https://github.com/Foxifly/Udacity-Map-Project",
     "demo": "https://foxifly.github.io/Udacity-Map-Project/",
@@ -11,7 +11,7 @@ const data = [
   {
     "name": "Arcade Game Clone",
     "language": ["JavaScript", "HTML", "CSS"],
-    "image": require("../img/froggerclone.png"),
+    "image": require("../img/froggerclone.jpg"),
     "date": "August 2018",
     "github": "https://github.com/Foxifly/Arcade-Game-Clone",
     "demo": "https://udacity.foxifly.net/FroggerClone/Arcade%20Game%20Clone/",
@@ -19,7 +19,7 @@ const data = [
   },
   {
     "name": "Memory Game",
-    "image": require("../img/memorygame.png"),
+    "image": require("../img/memorygame.jpg"),
     "language": ["JavaScript", "jQuery", "HTML", "CSS"],
     "date": "May 2018",
     "github": "https://github.com/Foxifly/Udacity-Memory-Game",
@@ -28,7 +28,7 @@ const data = [
   },
   {
     "name": "Fox Bot",
-    "image": require("../img/foxbot.png"),
+    "image": require("../img/foxbot.jpg"),
     "language": ["Node.JS"],
     "date": "Ongoing",
     "github": "",
@@ -37,7 +37,7 @@ const data = [
   },
   {
     "name": "Fox Den EDM Website",
-    "image": require("../img/foxdensite.png"),
+    "image": require("../img/foxdensite.jpg"),
     "language": ["React", "JavaScript", "Express.js", "HTML", "CSS"],
     "date": "November 2018",
     "github": "",
@@ -46,7 +46,7 @@ const data = [
   },
   {
     "name": "Jamming",
-    "image": "IMG",
+    "image": require("../img/jamming.jpg"),
     "language": ["React.JS", "JavaScript"],
     "date": "June 2018",
     "github": "https://github.com/Foxifly/jamming",
@@ -55,7 +55,7 @@ const data = [
   },
   {
     "name": "My Reads",
-    "image": require("../img/udacity-logo.png"),
+    "image": require("../img/myreads.jpg"),
     "language": ["React.JS", "JavaScript"],
     "date": "September 2018",
     "github": "https://github.com/Foxifly/My-Reads-Project",
@@ -64,7 +64,7 @@ const data = [
   },
   {
     "name": "Pixel Art Maker",
-    "image": require("../img/pixelartmaker.png"),
+    "image": require("../img/pixelartmaker.jpg"),
     "language": ["JavaScript", "JQuery", "CSS", "HTML"],
     "date": "September 2018",
     "github": "https://github.com/Foxifly/My-Reads-Project",

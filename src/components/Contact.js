@@ -1,25 +1,37 @@
 import React, { Component } from 'react';
+import '../css/contact.css';
 
 class Contact extends Component {
+  state = {
+    actionWords: ["amazing", "beautiful", "special", "creative", "big", "innovative", "inventive", "new", "exciting"],
+    actionWord: "awesome"
+  }
+
+  changeActionWord() {
+    let ranActWord = this.state.actionWords[Math.floor(Math.random() * this.state.actionWords.length)];
+      this.setState({
+        actionWord: ranActWord
+      })
+  }
+  componentDidMount() {
+
+    setInterval(function() {
+        this.changeActionWord()
+    }.bind(this), 5000)
+  }
 render() {
+
   return(
     <article className="contact" id="contact">
-      <h2>Contact me for things</h2>
-      <form>
-         <div role="textbox" id="name" className="field">
-            <label htmlFor="name-input">Your Name</label>
-            <input className="input" type="text" name="name-input" id="name-input" placeholder="Name"/>
-         </div>
-         <div role="textbox" id="email" className="field">
-            <label htmlFor="email-input">Your Email</label>
-            <input className="input" type="text" name="email-input" id="email-input" placeholder="Email"/>
-         </div>
-         <div  role="textbox" id="description" className="field">
-            <label htmlFor="text-description">Description</label>
-            <textarea id="text-description" className="input" name="description" placeholder="Description"></textarea>
-         </div>
-         <button className="button" id="submit">Submit</button>
-      </form>
+      <h2 className="connect">{"LET'S CONNECT"}</h2>
+      <p className="connect-paragraph">I would love to connect with you. I am currently available for freelance projects, open job positions, and more.
+
+      <br/> {`Let's work together to build something ${this.state.actionWord}.`}
+      <br/>   <br/>    <button className="contact-button">CONTACT</button>
+
+      </p>
+
+
     </article>
   )
 }

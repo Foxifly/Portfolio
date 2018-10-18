@@ -16,8 +16,8 @@ class Main extends Component {
         <MainLanding/>
         <AboutMe/>
         <Education courseWork={courseWork}/>
-        <Projects projectList={projectList}/>
         <Contact/>
+        <Projects projectList={projectList}/>
       </div>
     );
   }
