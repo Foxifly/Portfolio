@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/foxbot.4bb016fb.jpg"
   },
   {
-    "revision": "cad0b0e4dfa8d25f6420",
-    "url": "/Portfolio/static/css/main.af14fa2f.chunk.css"
+    "revision": "ae4a0e7d070643bd13fa",
+    "url": "/Portfolio/static/css/main.12d6fc09.chunk.css"
   },
   {
-    "revision": "6224e4f0d90d78122bf2",
-    "url": "/Portfolio/static/js/1.6224e4f0.chunk.js"
+    "revision": "f0f635b4c36b99e2533e",
+    "url": "/Portfolio/static/js/1.f0f635b4.chunk.js"
   },
   {
     "revision": "3b96116072eb85f5a3a2",
@@ -24,6 +24,10 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/profile-photo.da39c4a7.jpg"
   },
   {
+    "revision": "a8857c2c08c82aa493bbb609c136f9af",
+    "url": "/Portfolio/static/media/albion-college-logo.a8857c2c.png"
+  },
+  {
     "revision": "b0fc12193fe64c127f0cac63e0930f0b",
     "url": "/Portfolio/static/media/spurofthemoment.b0fc1219.jpg"
   },
@@ -36,8 +40,8 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/memorygame.6f22369a.jpg"
   },
   {
-    "revision": "cad0b0e4dfa8d25f6420",
-    "url": "/Portfolio/static/js/main.cad0b0e4.chunk.js"
+    "revision": "ae4a0e7d070643bd13fa",
+    "url": "/Portfolio/static/js/main.ae4a0e7d.chunk.js"
   },
   {
     "revision": "63ec469c9de35de244a5c6d09137e2b8",
@@ -72,7 +76,7 @@ self.__precacheManifest = [
     "url": "/Portfolio/static/media/BuildWebsiteUIs-Credential.14bfe962.png"
   },
   {
-    "revision": "85fa9151c8f5a4249a75a3e79e29cf46",
+    "revision": "5078879a75f78ac807ae2424caa42314",
     "url": "/Portfolio/index.html"
   }
 ];
