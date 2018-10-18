@@ -1,3 +1,13 @@
+@keyframes pjtEnter {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 .projects {
   background-color: #ebeaec;
   border-top: 1px solid #c3c0c7;
@@ -14,8 +24,60 @@
 
 .project-content {
   background-color: white;
-  box-shadow: 10px 10px 43px -5px rgba(0, 0, 0, 0.75)
-  ;
+  box-shadow: 10px 10px 43px -5px rgba(0, 0, 0, 0.75);
   text-align: center;
-  padding: 0 0 20px 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.hidden-overlay {
+  background-color: rgba(255, 255, 255, 0.97);
+  padding: 10px;
+  height: 100%;
+  animation: pjtEnter 0.8s forwards;
+}
+
+.project-lang-container {}
+
+.lang-icon {
+  text-align: center;
+  font-size: 26px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.project-date {
+  margin: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+}
+
+.linkButton {
+  background-color: #453761;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  margin: 3px 5px 2px 0 ;
+  transition: ease-in-out 0.2s;
+}
+
+.linkButton:hover {
+  background-color: #6a5e80;
+}
+
+.project-bio {
+  margin-top:0;
+    font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  line-height: 14px;
+}
+.project-name {
+  color: 373045;
+    font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin: 0px;
 }
