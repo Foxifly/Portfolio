@@ -30,6 +30,24 @@ h3 {
   text-align: center;
 }
 
+footer {
+  background-color: #373045;
+  padding: 20px 0 ;
+  text-transform: uppercase;
+  color: #373045;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 18px;
+
+}
+h6,
+h5 {
+  margin: 0;
+    color: white;
+    text-align: center;
+
+}
+
 .title-heading-wrapper {
   text-align: center;
   width: 20%;
@@ -209,8 +227,12 @@ h1 {
   font-size: 90px;
   text-align: center;
   animation: bounce 5s infinite;
+  transition: ease 0.5s;
 }
 
+.go-down:hover {
+    color: #d3d2d4;
+}
 
 
 

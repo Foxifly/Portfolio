@@ -12,7 +12,7 @@
   grid-template-columns: repeat(3, 20%);
   padding: 20px;
 }
-
+.albion-education-content,
 .education-content {
   background-color: white;
   box-shadow: 10px 10px 43px -5px rgba(0,0,0,0.75);
@@ -20,8 +20,16 @@
   padding: 20px;
   border-radius: 5px;
 }
+.albion-education-content {
+   grid-column: span 3;
+}
 
-.education-content h3 {
+.albion-logo{
+  margin-top: 10px;
+  width: 20%;
+  }
+
+.education-container h3 {
   text-transform: uppercase;
   color: #373045;
   font-family: 'PT Sans Narrow', sans-serif;
@@ -30,7 +38,7 @@
   font-weight: bold;
 }
 
-.education-content p {
+.education-container p {
   color: #373045;
   font-family: 'Source Sans Pro', sans-serif;
 }

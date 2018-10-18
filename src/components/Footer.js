@@ -4,7 +4,8 @@ class Footer extends Component {
 render() {
   return(
     <footer>
-    <h3>footing stuff</h3>
+    <h5>Copyright 2018 - Lindsay A Ciastko</h5>
+    <h6>All Rights Reserved</h6>
     </footer>
   )
 }

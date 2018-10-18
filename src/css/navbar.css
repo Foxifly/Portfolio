@@ -62,3 +62,12 @@ nav {
 .selected {
   color: white;
 }
+
+.sm-nav-item a{
+  color: white;
+  transition: ease 0.4s;
+}
+
+.sm-nav-item a:hover {
+  color: #EBEAEC;
+}

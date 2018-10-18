@@ -37,19 +37,29 @@ class NavBar extends Component {
       <nav className={"topbar " + classHide}>
         <ul className="nav-list">
           <li className="sm-nav-item">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/mystiqueyq">
             <FontAwesomeIcon icon={["fab", "facebook-square"]} />
+            </a>
           </li>
           <li className="sm-nav-item">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/Foxifly?tab=repositories">
             <FontAwesomeIcon icon={["fab", "github"]} />
+            </a>
           </li>
           <li className="sm-nav-item">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lciastko/">
             <FontAwesomeIcon icon={["fab", "linkedin"]} />
+            </a>
           </li>
           <li className="sm-nav-item">
+            <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1tqaZf6iVW4Nzqr6PZrKaVlHSD-_FWOqWCngYtlq77wo/edit?usp=sharing">
             <FontAwesomeIcon icon={["fas", "file"]} />
+            </a>
           </li>
           <li className="sm-nav-item">
+          <a href="mailto:lindsayciastko@gmail.com">
             <FontAwesomeIcon icon={["fas", "envelope"]} />
+            </a>
           </li>
         </ul>
       </nav>
