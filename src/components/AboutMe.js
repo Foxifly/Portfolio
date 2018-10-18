@@ -5,7 +5,8 @@ import "../css/about.css";
 class AboutMe extends Component {
   render() {
     return (
-      <article className="about" id="about">
+      <article className="about">
+      <a aria-hidden="true" className="anchor" id="about"></a>
         <div className="title-heading-wrapper">
           <h2>About</h2>
         </div>

@@ -22,7 +22,8 @@ class Contact extends Component {
 render() {
 
   return(
-    <article className="contact" id="contact">
+    <article className="contact">
+    <a aria-hidden="true" className="anchor" id="contact"></a>
       <h2 className="connect">{"LET'S CONNECT"}</h2>
       <p className="connect-paragraph">I would love to connect with you. I am currently available for freelance projects, open job positions, and more.
 

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import '../css/navbar.css'
 import {
   faFacebookSquare,
   faGithub,
@@ -34,35 +35,7 @@ class NavBar extends Component {
     let classHide = this.state.isHide ? "hide" : "";
     return (
       <nav className={"topbar " + classHide}>
-        <div className="logo">Logo here</div>
         <ul className="nav-list">
-          <li className="nav-item">
-            <a className="nav-item-link selected" href="#home">
-              HOME
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-item-link" href="#about">
-              ABOUT
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-item-link" href="#education">
-              EDUCATION
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-item-link" href="#projects">
-              PROJECTS
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-item-link" href="#contact">
-              CONTACT
-            </a>
-          </li>
-        </ul>
-        <ul className="sm-nav-list">
           <li className="sm-nav-item">
             <FontAwesomeIcon icon={["fab", "facebook-square"]} />
           </li>

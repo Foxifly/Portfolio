@@ -6,7 +6,8 @@ class Projects extends Component {
   render() {
     const { projectList } = this.props;
     return (
-      <article className="projects" id="projects">
+      <article className="projects">
+      <a aria-hidden="true" className="anchor" id="projects"></a>
       <div className="title-heading-wrapper">
         <h2>Projects</h2>
         </div>

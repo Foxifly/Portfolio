@@ -7,7 +7,8 @@ class Education extends Component {
 render() {
     const {courseWork} = this.props;
   return(
-    <article className="education" id="education">
+    <article className="education">
+    <a aria-hidden="true" className="anchor" id="education"></a>
     <div className="title-heading-wrapper">
       <h2>Education</h2>
       </div>

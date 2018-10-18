@@ -1,16 +1,4 @@
-nav {
-  position: fixed;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  background-color: #211c29;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  margin-top: 0;
-  z-index: 10;
-}
+
 
 @keyframes comeInOpp {
   0% {
@@ -131,45 +119,4 @@ nav {
 
 .nav-wrapper-d {
   animation: comeInOpp 1.2s forwards;
-}
-
-
-
-.logo,
-.sm-nav-list,
-.nav-list {
-  font-family: "Dosis", sans-serif;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 33.33333%;
-}
-
-.logo,
-.sm-nav-item,
-.nav-item {
-  list-style: none;
-}
-
-.sm-nav-item {
-  font-size: 26px;
-  padding: 0px 10px;
-}
-
-.nav-item {
-  color: grey;
-}
-
-.nav-item-link {
-  text-decoration: none;
-  color: gray;
-  padding: 20px;
-}
-
-.nav-item-link:hover>.nav-item {
-  border-bottom: 1px solid white;
-}
-
-.selected {
-  color: white;
 }

@@ -38,12 +38,10 @@
   animation: pjtEnter 0.8s forwards;
 }
 
-.project-lang-container {}
-
 .lang-icon {
   text-align: center;
-  font-size: 26px;
-  margin: 5px;
+  font-size: 24px;
+  margin: 2px;
   display: inline-block;
 }
 
@@ -58,7 +56,7 @@
   color: white;
   padding: 10px;
   border-radius: 50px;
-  margin: 3px 5px 2px 0 ;
+  margin: 3px 4px 2px 0 ;
   transition: ease-in-out 0.2s;
 }
 
