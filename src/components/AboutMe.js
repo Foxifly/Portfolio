@@ -6,7 +6,7 @@ class AboutMe extends Component {
   render() {
     return (
       <article className="about" id="about">
-        <div className="about-heading-wrapper">
+        <div className="title-heading-wrapper">
           <h2>About</h2>
         </div>
         <div className="about-container">

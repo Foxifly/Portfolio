@@ -6,17 +6,6 @@
   padding: 40px 0 40px 0;
 }
 
-.about-heading-wrapper {
-  text-align: center;
-  width: 20%;
-  left: 0;
-  padding: 10px;
-  background-color: #5E586A;
-  border-radius: 0 50px 50px 0px;
-  color: white;
-  margin-bottom: 20px;
-}
-
 .about-container {
   margin-top: 20px;
   width: 70%;

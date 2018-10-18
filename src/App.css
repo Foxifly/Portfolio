@@ -26,11 +26,22 @@ h2 {
 
 
 
-
-
-
 h3 {
   text-align: center;
+}
+
+.title-heading-wrapper {
+  text-align: center;
+  width: 20%;
+  background-color: green;
+  left: 0;
+  padding: 10px;
+  background-color: #5E586A;
+  border-radius: 0 50px 50px 0px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 3px;
 }
 
 .heading {

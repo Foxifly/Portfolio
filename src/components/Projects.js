@@ -7,7 +7,7 @@ class Projects extends Component {
     const { projectList } = this.props;
     return (
       <article className="projects" id="projects">
-      <div className="project-heading-wrapper">
+      <div className="title-heading-wrapper">
         <h2>Projects</h2>
         </div>
         <div className="project-container">
