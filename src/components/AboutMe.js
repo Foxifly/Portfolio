@@ -6,14 +6,14 @@ class AboutMe extends Component {
   render() {
     return (
       <article className="about">
-      <a aria-hidden="true" className="anchor" id="about"></a>
+      <div aria-hidden="true" className="anchor" id="about"></div>
         <div className="title-heading-wrapper">
           <h2>About</h2>
         </div>
         <div className="about-container">
           <div className="image-wrapper">
             <div className="image-container">
-              <img className="profile-photo" src={ProfilePhoto} />
+              <img alt="Lindsay Ciastko" className="profile-photo" src={ProfilePhoto} />
             </div>
           </div>
           <div className="about-text-wrapper">

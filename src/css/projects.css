@@ -7,6 +7,18 @@
     transform: translateY(0px);
   }
 }
+@keyframes pjtLeave {
+  0% {
+    transform: translateY(0%);
+    opacity: 1
+  }
+
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
 
 .projects {
   background-color: #ebeaec;
@@ -31,12 +43,21 @@
   border-radius: 5px;
 }
 
-.hidden-overlay {
+.project-content:hover .hidden-overlay {
+    animation: pjtEnter 0.8s forwards;
+}
+
+.project-content .hidden-overlay  {
   background-color: rgba(255, 255, 255, 0.97);
   padding: 10px;
   height: 100%;
-  animation: pjtEnter 0.8s forwards;
+  animation: pjtLeave 0.8s forwards;
+
 }
+
+
+
+
 
 .lang-icon {
   text-align: center;

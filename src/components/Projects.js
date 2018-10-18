@@ -7,13 +7,13 @@ class Projects extends Component {
     const { projectList } = this.props;
     return (
       <article className="projects">
-      <a aria-hidden="true" className="anchor" id="projects"></a>
+      <div aria-hidden="true" className="anchor" id="projects"></div>
       <div className="title-heading-wrapper">
         <h2>Projects</h2>
         </div>
         <div className="project-container">
           {projectList.map(project => {
-            return <Project projectInfo={project} />;
+            return <Project key={project.name} projectInfo={project} />;
           })}
         </div>
       </article>

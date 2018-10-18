@@ -15,7 +15,7 @@ nav {
 .topbar {
   visibility: visibile;
   opacity: 1;
-  transition: ease 0.4s;
+  transition: ease 0.6s;
 }
 
 .hide {
@@ -45,23 +45,8 @@ nav {
   padding: 0px 10px;
 }
 
-.nav-item {
-  color: grey;
-}
 
-.nav-item-link {
-  text-decoration: none;
-  color: gray;
-  padding: 20px;
-}
 
-.nav-item-link:hover>.nav-item {
-  border-bottom: 1px solid white;
-}
-
-.selected {
-  color: white;
-}
 
 .sm-nav-item a{
   color: white;

@@ -9,7 +9,7 @@ render() {
     const {courseWork} = this.props;
   return(
     <article className="education">
-    <a aria-hidden="true" className="anchor" id="education"></a>
+    <div aria-hidden="true" className="anchor" id="education"></div>
     <div className="title-heading-wrapper">
       <h2>Education</h2>
       </div>
