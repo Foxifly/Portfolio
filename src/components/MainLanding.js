@@ -118,7 +118,7 @@ class MainLanding extends Component {
             </a>
           </div>
 
-          <div aria-role="navigation" className="nav-container">
+          <div role="navigation" className="nav-container">
             <a href="#about">
               <div className="nav-wrapper-a">ABOUT</div>
             </a>
