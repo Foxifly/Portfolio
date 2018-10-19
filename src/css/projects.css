@@ -7,6 +7,7 @@
     transform: translateY(0px);
   }
 }
+
 @keyframes pjtLeave {
   0% {
     transform: translateY(0%);
@@ -18,7 +19,6 @@
     opacity: 0;
   }
 }
-
 
 .projects {
   background-color: #ebeaec;
@@ -44,20 +44,15 @@
 }
 
 .project-content:hover .hidden-overlay {
-    animation: pjtEnter 0.8s forwards;
+  animation: pjtEnter 0.8s forwards;
 }
 
-.project-content .hidden-overlay  {
+.project-content .hidden-overlay {
   background-color: rgba(255, 255, 255, 0.97);
   padding: 10px;
   height: 100%;
   animation: pjtLeave 0.8s forwards;
-
 }
-
-
-
-
 
 .lang-icon {
   text-align: center;
@@ -77,7 +72,7 @@
   color: white;
   padding: 10px;
   border-radius: 50px;
-  margin: 3px 4px 2px 0 ;
+  margin: 3px 4px 2px 0;
   transition: ease-in-out 0.2s;
 }
 
@@ -86,15 +81,16 @@
 }
 
 .project-bio {
-  margin-top:0;
-    font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   text-align: justify;
   line-height: 14px;
 }
+
 .project-name {
   color: 373045;
-    font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 20px;

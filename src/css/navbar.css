@@ -23,7 +23,6 @@ nav {
   visibility: hidden;
 }
 
-
 .logo,
 .sm-nav-list,
 .nav-list {
@@ -45,10 +44,7 @@ nav {
   padding: 0px 10px;
 }
 
-
-
-
-.sm-nav-item a{
+.sm-nav-item a {
   color: white;
   transition: ease 0.4s;
 }

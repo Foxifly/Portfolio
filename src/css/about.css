@@ -31,7 +31,8 @@
   height: 200px;
   overflow: hidden;
   border-radius: 100%;
-  border: 5px solid #373045;;
+  border: 5px solid #373045;
+  ;
   margin: 0 auto;
 }
 
