@@ -1,5 +1,3 @@
-
-
 @keyframes comeInOpp {
   0% {
     transform: translate(500px);
@@ -9,7 +7,6 @@
     transform: translate(0px);
   }
 }
-
 
 @keyframes comeIn {
   0% {
@@ -119,4 +116,88 @@
 
 .nav-wrapper-d {
   animation: comeInOpp 1.2s forwards;
+}
+
+.go-down {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+  animation: bounce 5s infinite;
+  transition: ease 0.5s;
+}
+
+.go-down:hover {
+  color: #d3d2d4;
+}
+
+.heading {
+  text-align: center;
+  padding: 20%;
+  color: white;
+}
+
+.main-landing {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    '. . . .'
+    'nameW nameW nameW .'
+    '. descW descW navW'
+    '. iconW iconW navW'
+    '. . . navW'
+    '. downW downW . ';
+}
+
+.name-wrapper {
+  grid-area: nameW
+}
+
+.icon-container {
+  grid-area: iconW;
+  justify-self: center;
+}
+
+.desc-word-wrapper {
+  grid-area: descW;
+  justify-self: center;
+  align-self: flex-end;
+}
+
+.down {
+  grid-area: downW
+}
+
+.nav-container {
+  grid-area: navW
+}
+
+.description-wrapper p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.main-landing {
+  background-color: #373045;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+.code-icon {
+  color: white;
+  font-size: 40px;
+  padding: 0;
+  padding-right: 10px;
+  float: left;
+}
+
+.desc-word-1, .desc-word-2, .desc-word-3 {
+  color: white;
+  font-size: 32px;
+  font-family: 'Fjalla One', sans-serif;
+  animation: fadeIn 0.7s;
+  text-align: left;
+  float: left;
+  margin: 10px;
 }

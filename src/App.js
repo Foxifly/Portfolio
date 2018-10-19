@@ -3,6 +3,7 @@ import Main from "./components/Main";
 import data from "./data/data";
 import education from "./data/education";
 import './App.css';
+import './css/responsive.css';
 
 class App extends Component {
   state = {

@@ -59,7 +59,7 @@ class Project extends Component {
         <div
           style={{
             width: "100%",
-            height: 200,
+            height: 220,
             backgroundImage: `url(${projectInfo.image})`,
             backgroundSize: "cover",
             backgroundPosition: "center"

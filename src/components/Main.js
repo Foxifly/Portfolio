@@ -7,6 +7,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import MainLanding from "./MainLanding";
 
+
 class Main extends Component {
   render() {
     const {courseWork, projectList} = this.props;
