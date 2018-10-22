@@ -6,16 +6,20 @@ class AboutMe extends Component {
   render() {
     return (
       <article className="about">
-
         <div aria-hidden="true" className="anchor" id="about" />
 
         <div aria-labelledby="heading-about" className="title-heading-wrapper">
-          <h2 aria-describedby="about-text-wrapper" className="heading-about">About</h2>
+          <h2 aria-describedby="about-text-wrapper" className="heading-about">
+            About
+          </h2>
         </div>
 
         <div className="about-container">
           <div className="image-wrapper">
-            <div aria-describedby="about-text-wrapper" className="image-container">
+            <div
+              aria-describedby="about-text-wrapper"
+              className="image-container"
+            >
               <img
                 alt="Lindsay Ciastko"
                 className="profile-photo"
@@ -24,7 +28,11 @@ class AboutMe extends Component {
             </div>
           </div>
 
-          <section aria-labelledby="heading-about" aria-label="About Lindsay" className="about-text-wrapper">
+          <section
+            aria-labelledby="heading-about"
+            aria-label="About Lindsay"
+            className="about-text-wrapper"
+          >
             <p>
               {
                 "In early 2016, I graduated Albion College with my shiny new Bachelor's Degree. Little did I know that the job market really wasn't looking for a newbie physics major. After spending some time struggling to find a job in physics, I decided to pick up coding to make the time go by faster. I spent a great deal of time designing a small website and a chat bot for a music sharing platform known as plug.dj. At first, this site and bot were honestly nothing special. My website looked like something straight out of the 90s, and my bot had minimal features and crashed constantly. But, I never gave up working on them."
@@ -37,7 +45,6 @@ class AboutMe extends Component {
             </p>
           </section>
         </div>
-
       </article>
     );
   }

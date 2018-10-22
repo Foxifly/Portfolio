@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 class Credential extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
@@ -19,20 +20,22 @@ class Credential extends Component {
     const { course } = this.props;
     const { modal } = this.state;
     return (
-      <div className="education-content">
-        <h3>{course.type}</h3>
-        <img alt={course.name} className="course-logo" src={course.logo}/>
-        <p>{course.description}</p>
+      <div aria-labelledby="course-type" className="education-content">
+        <h3 aria-describedby="course-description" className="course-type">{course.type}</h3>
+        <img alt={course.name} className="course-logo" src={course.logo} />
+        <p className="course-description">{course.description}</p>
         <button onClick={this.handleClick} className="more-info">
           More Info
         </button>
 
         {modal && (
           <div aria-hidden={!this.state.modal} className="modal">
-            <div className="edu-modal-content">
-            <div className="heading-wrapper">
-              <h3 id="name">{course.type} ({course.name})</h3>
-              <h4>{course.date}</h4>
+            <div aria-labelledby="name" className="edu-modal-content">
+              <div aria-labelledby="name" aria-describedby="date" className="heading-wrapper">
+                <h3 className="name" id="name">
+                  {course.type} ({course.name})
+                </h3>
+                <h4 className="date">{course.date}</h4>
               </div>
 
               <div className="cert-img-wrapper">
@@ -43,24 +46,22 @@ class Credential extends Component {
                 />
               </div>
 
-              <div className="description-wrapper">
-              <p>{course.long_description}</p>
+              <div aria-labelledby="name" aria-describedby="description" className="description-wrapper">
+                <p className="description">{course.long_description}</p>
               </div>
 
-              <div className="course-link-wrapper-1">
-
+              <div aria-labelledby="name" aria-describedby="description" className="course-link-wrapper-1">
                 <a
-                className="edu-link"
+                  className="edu-link"
                   target="_blank"
                   rel="noopener noreferrer"
                   href={course.certificate_url}
                 >
                   Certificate
                 </a>
+              </div>
 
-                </div>
-
-                <div className="course-link-wrapper-2">
+              <div aria-labelledby="name" aria-describedby="description" className="course-link-wrapper-2">
                 <a
                   className="edu-link"
                   target="_blank"
@@ -69,10 +70,9 @@ class Credential extends Component {
                 >
                   Course
                 </a>
-
               </div>
 
-              <div className="close-button-wrapper">
+              <div aria-labelledby="name" aria-describedby="description" className="close-button-wrapper">
                 <button
                   onClick={this.handleClick}
                   className="invalid-input-button"
@@ -80,7 +80,6 @@ class Credential extends Component {
                   Close
                 </button>
               </div>
-
             </div>
           </div>
         )}
