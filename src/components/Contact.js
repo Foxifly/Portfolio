@@ -49,7 +49,7 @@ class Contact extends Component {
           freelance projects, open job positions, and more.
           <br />{" "}
           {`Let's work together to build something ${this.state.actionWord}.`}
-          <br /> <br /> <button className="contact-button">CONTACT</button>
+          <br /> <br /> <a href="mailto:laciastko@gmail.com" role="button" className="contact-button">CONTACT</a>
         </p>
       </article>
     );
