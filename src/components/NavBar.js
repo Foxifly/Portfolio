@@ -91,7 +91,7 @@ class NavBar extends Component {
             <a
               className="social-media-link"
               aria-label="email"
-              href="mailto:lindsayciastko@gmail.com"
+              href="mailto:laciastko@gmail.com"
             >
               <FontAwesomeIcon icon={["fas", "envelope"]} />
             </a>
