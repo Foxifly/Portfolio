@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/BuildWebsiteUIs-Credential.14bfe962.png"
   },
   {
-    "revision": "fa98592e1d8eb1343b213a9ed6c090ce",
+    "revision": "9713ba27a85cc1bec306205e7c5c4b5c",
     "url": "/index.html"
   }
 ];
