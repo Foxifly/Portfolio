@@ -31,7 +31,7 @@ const data = [
     "image": require("../img/foxbot.jpg"),
     "language": ["node"],
     "date": "Ongoing",
-    "github": "",
+    "github": "https://github.com/Foxifly/Fox-Bot",
     "demo": "https://plug.dj/foxdenedm",
     "bio": "Fox Bot is an chat application created using Node.js for a music sharing site, Plug.dj. This bot creates several calls to Plug.dj's API to perform its functions. "
   },
@@ -40,8 +40,8 @@ const data = [
     "image": require("../img/foxdensite.jpg"),
     "language": ["html5", "css3-alt", "sass", "js-square", "gulp"],
     "date": "November 2018",
-    "github": "",
-    "demo": "",
+    "github": "https://github.com/Foxifly/Fox-Den-Site-WIP",
+    "demo": "https://foxdenedm.com/secretagentman",
     "bio": "Built a website to go along with Fox Bot for a music sharing site, Plug.dj. This website connects to Fox Bot's databases to pull in live data and statistics."
   },
   {
@@ -50,7 +50,7 @@ const data = [
     "language": [ "js-square", "react"],
     "date": "June 2018",
     "github": "https://github.com/Foxifly/jamming",
-    "demo": "",
+    "demo": "https://foxifly.github.io/jamming/",
     "bio": "The Codecademy final project required students to create an application that uses the Spotify API to authenticate a user through Spotify in order to create playlists and publish tracks."
   },
   {
@@ -59,7 +59,7 @@ const data = [
     "language": ["js-square", "react"],
     "date": "September 2018",
     "github": "https://github.com/Foxifly/My-Reads-Project",
-    "demo": "",
+    "demo": "https://foxifly.github.io/My-Reads-Project/",
     "bio": "MyReads is a book sorting and tracking application that allows users to sort and search for books that they are currently reading, want to read, and read. "
   },
   {
@@ -67,8 +67,8 @@ const data = [
     "image": require("../img/pixelartmaker.jpg"),
     "language": [ "html5", "css3-alt", "js-square"],
     "date": "September 2018",
-    "github": "https://github.com/Foxifly/My-Reads-Project",
-    "demo": "",
+    "github": "https://github.com/Foxifly/Pixel-Art-Maker",
+    "demo": "https://udacity.foxifly.net/pixelartmaker/pixelart.html",
     "bio": "This Pixel Art Maker allows users to generate a canvas to draw on and customize. Users can adjust the canvas size, background color, pen color, and more with this single page app."
   }
 
