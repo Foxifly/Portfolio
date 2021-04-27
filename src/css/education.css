@@ -1,0 +1,69 @@
+.education {
+  background-color: #ebeaec;
+  margin: 0;
+  padding: 50px 0 50px 0;
+  border-top: 1px solid #c3c0c7;
+}
+
+.education-container {
+  display: grid;
+  grid-gap: 25px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 25%);
+  padding: 20px;
+}
+
+.albion-education-content,
+.education-content {
+  background-color: white;
+  box-shadow: 10px 10px 43px -5px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.albion-education-content {
+  grid-column: span 3;
+}
+
+.albion-logo {
+  margin-top: 10px;
+  width: 20%;
+}
+
+.education-container h3 {
+  text-transform: uppercase;
+  color: #373045;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.education-container p {
+  color: #373045;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.course-logo {
+  padding-top: 10px;
+  width: 50%;
+}
+
+.edu-link {
+  padding: 12px;
+  color: white;
+  background-color: #17063A;
+  margin: 0 auto;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: ease-in-out 0.2s;
+}
+
+.edu-link:visited {
+  color: white;
+}
+
+.edu-link:hover {
+  background-color: #453761;
+}

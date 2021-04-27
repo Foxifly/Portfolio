@@ -1,0 +1,41 @@
+.about {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 40px 0 40px 0;
+}
+
+.about-container {
+  margin-top: 20px;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.about-text-wrapper {
+  width: 70%;
+  text-align: justify;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #373045;
+}
+
+.image-wrapper {
+  width: 30%;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 5px solid #373045;
+  ;
+  margin: 0 auto;
+}
+
+.profile-photo {
+  width: 100%;
+}
