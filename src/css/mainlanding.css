@@ -64,7 +64,7 @@
 }
 
 .name-wrapper {
-  background-color: #415065;
+  background-color: #12253f;
   border-radius: 0px 50px 50px 0px;
   width: 100%;
   padding: 15px;
@@ -87,7 +87,7 @@
 }
 
 .nav-wrapper-a, .nav-wrapper-b, .nav-wrapper-c, .nav-wrapper-d {
-  background-color: #415065;
+  background-color: #12253f;
   border-radius: 50px 0px 0px 50px;
   padding: 20px 30px;
   margin: 10px 0px;
@@ -151,7 +151,7 @@
     '. downW downW .'
     '. . . .'
     '. . . .';
-    background-color: #0e1d32
+    background-color: #0c192c
 ;
 }
 

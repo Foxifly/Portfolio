@@ -2,7 +2,7 @@
   .main-landing {
     grid-template-areas:
       '. . . .'
-      'nameW nameW navW navW'
+      'nameW navW navW navW'
       '. .  navW navW'
       '. descW descW .'
       '. iconW iconW .'
