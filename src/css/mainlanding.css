@@ -144,10 +144,10 @@
   padding-bottom: 5%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
-    'nameW nameW nameW .'
+    'nameW . . navW'
     '. descW descW navW'
     '. iconW iconW navW'
-    '. downW downW navW'
+    '. downW downW .'
     '. downW downW .'
     '. . . .'
     '. . . .';
