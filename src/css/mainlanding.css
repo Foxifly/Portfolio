@@ -140,7 +140,8 @@
   display: grid;
   width: 100%;
   height: 50vh;
-  padding-bottom: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     '. . . .'
@@ -149,7 +150,7 @@
     '. iconW iconW navW'
     '. . . navW'
     '. downW downW . ';
-    background-color: #373045;
+    background-color: #12253F;
 }
 
 .name-wrapper {
