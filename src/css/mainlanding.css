@@ -145,11 +145,11 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     '. . . .'
-    'nameW nameW nameW .'
+    'nameW nameW navW .'
     '. descW descW navW'
     '. iconW iconW navW'
-    '. . . navW'
-    '. downW downW . ';
+    '. downW downW navW'
+    '. . . . ';
     background-color: #12253F;
 }
 
