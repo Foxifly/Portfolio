@@ -64,9 +64,9 @@
 }
 
 .name-wrapper {
-  background-color: #5e596a;
+  background-color: #415065;
   border-radius: 0px 50px 50px 0px;
-  width: 40%;
+  width: 100%;
   padding: 15px;
   align-self: center;
   animation: comeIn 3s forwards;
@@ -87,7 +87,7 @@
 }
 
 .nav-wrapper-a, .nav-wrapper-b, .nav-wrapper-c, .nav-wrapper-d {
-  background-color: #5e596a;
+  background-color: #415065;
   border-radius: 50px 0px 0px 50px;
   padding: 20px 30px;
   margin: 10px 0px;
@@ -144,13 +144,15 @@
   padding-bottom: 5%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
-    '. . . .'
-    'nameW nameW navW .'
+    'nameW nameW nameW .'
     '. descW descW navW'
     '. iconW iconW navW'
     '. downW downW navW'
-    '. . . . ';
-    background-color: #12253F;
+    '. downW downW .'
+    '. . . .'
+    '. . . .';
+    background-color: #0e1d32
+;
 }
 
 .name-wrapper {
