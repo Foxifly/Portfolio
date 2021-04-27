@@ -14,7 +14,7 @@ const data = [
     "image": require("../img/froggerclone.jpg"),
     "date": "August 2018",
     "github": "https://github.com/Foxifly/Arcade-Game-Clone",
-    "demo": "https://udacity.foxifly.net/FroggerClone/Arcade%20Game%20Clone/",
+    "demo": "https://udacity.lindsayciastko.com/FroggerClone/Arcade%20Game%20Clone/",
     "bio": "Used Object Oriented JavaScript to create a Frogger game clone. As provided by Udacity, students were to create player and enemy entity classes that would spawn on the canvas."
   },
   {
@@ -23,7 +23,7 @@ const data = [
     "language": ["html5", "css3-alt", "js-square"],
     "date": "May 2018",
     "github": "https://github.com/Foxifly/Udacity-Memory-Game",
-    "demo": "https://udacity.foxifly.net/memorygame/",
+    "demo": "https://udacity.lindsayciastko.com/memorygame/",
     "bio": "This app runs on the browser and generates a matching game for users to play. The goal of the game is to pair each card with a card that has a matching image."
   },
   {
@@ -68,7 +68,7 @@ const data = [
     "language": [ "html5", "css3-alt", "js-square"],
     "date": "September 2018",
     "github": "https://github.com/Foxifly/Pixel-Art-Maker",
-    "demo": "https://udacity.foxifly.net/pixelartmaker/pixelart.html",
+    "demo": "https://udacity.lindsayciastko.com/pixelartmaker/pixelart.html",
     "bio": "This Pixel Art Maker allows users to generate a canvas to draw on and customize. Users can adjust the canvas size, background color, pen color, and more with this single page app."
   }
 
