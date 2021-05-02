@@ -149,7 +149,7 @@ button {
   font-weight: bold;
   padding: 10px;
   color: white;
-  background-color: #453761;
+  background-color: #415065;
   cursor: pointer;
   margin: 0 auto;
   text-decoration: none;
@@ -159,7 +159,7 @@ button {
 }
 
 button:hover {
-  background-color: #6a5e80;
+  background-color: #8d96a2;
 }
 
 .anchor {
