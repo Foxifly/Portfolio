@@ -4,6 +4,13 @@ import "../css/about.css";
 
 class AboutMe extends Component {
 
+  constructor(props) {
+    this.state = {
+      isAboutHidden: true
+    };
+    this.openAbout = this.openAbout.bind(this); 
+  }
+
   state = {
     isAboutHidden: true
   };
@@ -23,7 +30,8 @@ class AboutMe extends Component {
 
 
   render() {
-    if (this.state.isAboutHidden) {
+    let currentState = this.state.isAboutHidden
+    if (currentState) {
       return (
         <article className="about">
           <div aria-hidden="true" className="anchor" id="about" />
@@ -65,7 +73,7 @@ class AboutMe extends Component {
 
 
     );
-  } else if (this.state.isAboutHidden == false) {
+  } else if (currentState == false) {
 
     return (
       <article className="about">
