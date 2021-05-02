@@ -4,24 +4,24 @@ self.__precacheManifest = [
     "url": "/static/media/foxbot.4bb016fb.jpg"
   },
   {
-    "revision": "76bb4691f257dae1da16",
+    "revision": "3398140d5e6de9f6727e",
     "url": "/static/css/main.0beaca06.chunk.css"
   },
   {
-    "revision": "a73c43754a90a55ee1fc",
-    "url": "/static/js/1.a73c4375.chunk.js"
+    "revision": "f9ab248392c4931a007f",
+    "url": "/static/js/1.f9ab2483.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "8bf89e75f31e397b0c96ff9c6d8674cd",
-    "url": "/static/media/codecademy-logo.8bf89e75.png"
-  },
-  {
     "revision": "c87982ef4d956a2ef909f854b8ff7a1e",
     "url": "/static/media/profile-photo.c87982ef.jpg"
+  },
+  {
+    "revision": "8bf89e75f31e397b0c96ff9c6d8674cd",
+    "url": "/static/media/codecademy-logo.8bf89e75.png"
   },
   {
     "revision": "a8857c2c08c82aa493bbb609c136f9af",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/memorygame.6f22369a.jpg"
   },
   {
-    "revision": "76bb4691f257dae1da16",
-    "url": "/static/js/main.76bb4691.chunk.js"
+    "revision": "3398140d5e6de9f6727e",
+    "url": "/static/js/main.3398140d.chunk.js"
   },
   {
     "revision": "63ec469c9de35de244a5c6d09137e2b8",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/BuildWebsiteUIs-Credential.14bfe962.png"
   },
   {
-    "revision": "0a96a056e5c27822f01be0fb2aa72c3c",
+    "revision": "9be5a82c2bb1220a294fdc2770300b53",
     "url": "/index.html"
   }
 ];
