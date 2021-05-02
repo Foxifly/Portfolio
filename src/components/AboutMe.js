@@ -5,10 +5,11 @@ import "../css/about.css";
 class AboutMe extends Component {
 
   constructor(props) {
+    super(props);
     this.state = {
       isAboutHidden: true
     };
-    this.openAbout = this.openAbout.bind(this); 
+    this.openAbout = this.openAbout.bind(this);
   }
 
   state = {
