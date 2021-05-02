@@ -59,7 +59,7 @@ class AboutMe extends Component {
             </section>
           </div>
         </article>
-    }
+
 
     );
   } else if (isAboutHidden == false) {
@@ -127,6 +127,7 @@ Searching for a professional with technical proficiency in UX/UI design, usabili
   );
 
   }
+}
 }
 
 export default AboutMe;
