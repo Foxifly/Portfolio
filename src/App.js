@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     const {projectList, courseWork, workExperience} = this.state;
     return (
-      <Main courseWork={courseWork} projectList={projectList} workExperience={}/>
+      <Main courseWork={courseWork} projectList={projectList} workExperience={workExperience}/>
     );
   }
 }
