@@ -122,7 +122,7 @@ Searching for a professional with technical proficiency in UX/UI design, usabili
           </section>
         </div>
       </article>
-  }
+  
 
   );
 
