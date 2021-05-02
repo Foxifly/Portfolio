@@ -19,6 +19,7 @@ class AboutMe extends Component {
   // }
 
 
+
   render() {
     if (this.state.isAboutHidden) {
       return (
@@ -53,7 +54,7 @@ class AboutMe extends Component {
               <p>
                   Enhancing peoples' lives drives me to create revolutionary concepts passionately. I love designing customer-focused and customer-centric user experiences, which propels me to think "outside the box" to develop unique ideas. I offer my singleminded devotion to innovative concepts, developing unparalleled designs, and leading technical development. My technical understanding and creative mindset enable me to quickly discover customers' pain points and assemble originative solutions accordingly. This has been my drive and concentration throughout my career and studies.
               </p>
-              <button>
+              <button onClick={this.openAbout()}>
                 Read More
               </button>
             </section>
