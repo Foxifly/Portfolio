@@ -46,12 +46,12 @@ class AboutMe extends Component {
             <p>
               Core Expertise:
               <ul>
-              <li> Project Management </li>
-              <li> UI/UX Design </li>
-              <li> User Engagement </li>
-              <li> Usability Testing </li>
-              <li> Prototyping </li>
-              <li> Front-End Development </li>
+              <li class="core-expertise"> Project Management </li>
+              <li class="core-expertise"> UI/UX Design </li>
+              <li class="core-expertise"> User Engagement </li>
+              <li class="core-expertise"> Usability Testing </li>
+              <li class="core-expertise"> Prototyping </li>
+              <li class="core-expertise"> Front-End Development </li>
               </ul>
             </p>
 
