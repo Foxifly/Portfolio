@@ -14,8 +14,8 @@ render() {
       </div>
       <div className="work-experience-container">
       {
-        courseWork.map(course=>{
-            return <Credential key={course.key} course={course}/>
+        workExperience.map(course=>{
+            return <Work key={course.key} course={course}/>
         })
       }
 </div>
