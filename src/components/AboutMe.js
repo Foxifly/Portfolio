@@ -10,7 +10,7 @@ class AboutMe extends Component {
 
   openAbout() {
     this.setState({
-      isAboutHidden: false
+      isAboutHidden: !isAboutHidden
     });
   }
 
@@ -28,7 +28,7 @@ class AboutMe extends Component {
 
           <div aria-labelledby="heading-about" className="title-heading-wrapper">
             <h2 aria-describedby="about-text-wrapper" className="heading-about">
-              `About ${this.state.isAboutHidden}`
+              About
             </h2>
           </div>
 
@@ -55,7 +55,7 @@ class AboutMe extends Component {
                   Enhancing peoples' lives drives me to create revolutionary concepts passionately. I love designing customer-focused and customer-centric user experiences, which propels me to think "outside the box" to develop unique ideas. I offer my singleminded devotion to innovative concepts, developing unparalleled designs, and leading technical development. My technical understanding and creative mindset enable me to quickly discover customers' pain points and assemble originative solutions accordingly. This has been my drive and concentration throughout my career and studies.
               </p>
               <button onClick={this.openAbout()}>
-                Read More
+                Show More
               </button>
             </section>
           </div>
@@ -71,7 +71,7 @@ class AboutMe extends Component {
 
         <div aria-labelledby="heading-about" className="title-heading-wrapper">
           <h2 aria-describedby="about-text-wrapper" className="heading-about">
-            `About ${this.state.isAboutHidden}`
+            About
           </h2>
         </div>
 
@@ -120,6 +120,10 @@ class AboutMe extends Component {
             <p>
 Searching for a professional with technical proficiency in UX/UI design, usability testing, and project management? We should connect!
             </p>
+
+            <button onClick={this.openAbout()}>
+              Show Less
+            </button>
           </section>
         </div>
       </article>
