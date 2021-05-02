@@ -27,7 +27,7 @@ class AboutMe extends Component {
 
           <div aria-labelledby="heading-about" className="title-heading-wrapper">
             <h2 aria-describedby="about-text-wrapper" className="heading-about">
-              About
+              `About ${this.state.isAboutHidden}`
             </h2>
           </div>
 
@@ -70,7 +70,7 @@ class AboutMe extends Component {
 
         <div aria-labelledby="heading-about" className="title-heading-wrapper">
           <h2 aria-describedby="about-text-wrapper" className="heading-about">
-            About
+            `About ${this.state.isAboutHidden}`
           </h2>
         </div>
 
