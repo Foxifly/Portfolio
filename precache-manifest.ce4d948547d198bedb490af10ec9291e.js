@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/foxbot.4bb016fb.jpg"
   },
   {
-    "revision": "40cb1772625ddc4346f1",
+    "revision": "76bb4691f257dae1da16",
     "url": "/static/css/main.0beaca06.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/media/codecademy-logo.8bf89e75.png"
   },
   {
-    "revision": "da39c4a728e632ea107a0faf9473945a",
-    "url": "/static/media/profile-photo.da39c4a7.jpg"
+    "revision": "c87982ef4d956a2ef909f854b8ff7a1e",
+    "url": "/static/media/profile-photo.c87982ef.jpg"
   },
   {
     "revision": "a8857c2c08c82aa493bbb609c136f9af",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/memorygame.6f22369a.jpg"
   },
   {
-    "revision": "40cb1772625ddc4346f1",
-    "url": "/static/js/main.40cb1772.chunk.js"
+    "revision": "76bb4691f257dae1da16",
+    "url": "/static/js/main.76bb4691.chunk.js"
   },
   {
     "revision": "63ec469c9de35de244a5c6d09137e2b8",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/static/media/BuildWebsiteUIs-Credential.14bfe962.png"
   },
   {
-    "revision": "fd152bc36740594355aca4b1cf84abe7",
+    "revision": "0a96a056e5c27822f01be0fb2aa72c3c",
     "url": "/index.html"
   }
 ];
