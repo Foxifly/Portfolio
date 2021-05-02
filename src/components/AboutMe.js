@@ -24,12 +24,6 @@ class AboutMe extends Component {
     });
   }
 
-  // componentDidMount() {
-  //   this.isAboutHidden
-  // }
-
-
-
   render() {
     let currentState = this.state.isAboutHidden
     if (currentState) {
@@ -65,7 +59,7 @@ class AboutMe extends Component {
               <p>
                   Enhancing peoples' lives drives me to create revolutionary concepts passionately. I love designing customer-focused and customer-centric user experiences, which propels me to think "outside the box" to develop unique ideas. I offer my singleminded devotion to innovative concepts, developing unparalleled designs, and leading technical development. My technical understanding and creative mindset enable me to quickly discover customers' pain points and assemble originative solutions accordingly. This has been my drive and concentration throughout my career and studies.
               </p>
-              <button onClick={this.openAbout}>
+              <button className="about-show" onClick={this.openAbout}>
                 Show More
               </button>
             </section>
@@ -132,7 +126,7 @@ class AboutMe extends Component {
 Searching for a professional with technical proficiency in UX/UI design, usability testing, and project management? We should connect!
             </p>
 
-            <button onClick={this.openAbout}>
+            <button  className="about-show" onClick={this.openAbout}>
               Show Less
             </button>
           </section>
