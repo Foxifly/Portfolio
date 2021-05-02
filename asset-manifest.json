@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.84ff3f9d.chunk.css",
-  "main.js": "/static/js/main.1cff48cb.chunk.js",
-  "main.js.map": "/static/js/main.1cff48cb.chunk.js.map",
+  "main.css": "/static/css/main.01355e88.chunk.css",
+  "main.js": "/static/js/main.d8d4228c.chunk.js",
+  "main.js.map": "/static/js/main.d8d4228c.chunk.js.map",
   "static/js/1.f9ab2483.chunk.js": "/static/js/1.f9ab2483.chunk.js",
   "static/js/1.f9ab2483.chunk.js.map": "/static/js/1.f9ab2483.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
@@ -21,8 +21,8 @@
   "static/media/FrontEndDev-Certificate.svg": "/static/media/FrontEndDev-Certificate.765f4e18.svg",
   "static/media/codecademy-logo.png": "/static/media/codecademy-logo.8bf89e75.png",
   "static/media/BuildWebsiteUIs-Credential.png": "/static/media/BuildWebsiteUIs-Credential.14bfe962.png",
-  "static/css/main.84ff3f9d.chunk.css.map": "/static/css/main.84ff3f9d.chunk.css.map",
+  "static/css/main.01355e88.chunk.css.map": "/static/css/main.01355e88.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.5fd792553d7b763464d274202872b82a.js": "/precache-manifest.5fd792553d7b763464d274202872b82a.js",
+  "precache-manifest.51be957d05f9859a4f45d513d294dc1a.js": "/precache-manifest.51be957d05f9859a4f45d513d294dc1a.js",
   "service-worker.js": "/service-worker.js"
 }
