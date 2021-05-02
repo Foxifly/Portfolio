@@ -10,7 +10,7 @@ class AboutMe extends Component {
 
   openAbout() {
     this.setState({
-      isAboutHidden: !isAboutHidden
+      isAboutHidden: !this.state.isAboutHidden
     });
   }
 
