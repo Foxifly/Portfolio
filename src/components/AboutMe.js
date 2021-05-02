@@ -20,7 +20,7 @@ class AboutMe extends Component {
 
 
   render() {
-    if (isAboutHidden) {
+    if (this.state.isAboutHidden) {
       return (
         <article className="about">
           <div aria-hidden="true" className="anchor" id="about" />
@@ -62,7 +62,7 @@ class AboutMe extends Component {
 
 
     );
-  } else if (isAboutHidden == false) {
+  } else if (this.state.isAboutHidden == false) {
 
     return (
       <article className="about">
@@ -122,7 +122,7 @@ Searching for a professional with technical proficiency in UX/UI design, usabili
           </section>
         </div>
       </article>
-  
+
 
   );
 
