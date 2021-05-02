@@ -72,25 +72,10 @@ class AboutMe extends Component {
 
             </p>
             <p>
-            {
-
-            }
-            </p>
-
-
-
-
-
-
 
 Searching for a professional with technical proficiency in UX/UI design, usability testing, and project management?
 We should connect! You can reach me here or via email at laciastko@gmail.com.
-              }
-            </p>
-            <p>
-              {
-                "As time passed, my website became more and more complex and beautiful and my chat bot completely transformed. Instead of running in a browser through a bookmarklet, I was able to redesign my bot using Node.js and run it on the command line. In my perspective, this was absolutely revolutionary! Soon after, I applied for a scholarship with Udacity sponsored by Google for a Front End Developer Nanodegree. I was awarded this scholarship for both the challenge course and the nanodegree itself. I have finally finished my coursework and I am ready to tackle a career change."
-              }
+
             </p>
           </section>
         </div>
