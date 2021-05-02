@@ -35,7 +35,58 @@ class AboutMe extends Component {
           >
             <p>
               {
-                "In early 2016, I graduated Albion College with my shiny new Bachelor's Degree. Little did I know that the job market really wasn't looking for a newbie physics major. After spending some time struggling to find a job in physics, I decided to pick up coding to make the time go by faster. I spent a great deal of time designing a small website and a chat bot for a music sharing platform known as plug.dj. At first, this site and bot were honestly nothing special. My website looked like something straight out of the 90s, and my bot had minimal features and crashed constantly. But, I never gave up working on them."
+                Enhancing peoples' lives drives me to create revolutionary concepts passionately. I love designing customer-focused and customer-centric user experiences, which propels me to think "outside the box" to develop unique ideas. I offer my singleminded devotion to innovative concepts, developing unparalleled designs, and leading technical development.
+              }
+            </p>
+
+            <p>
+            {
+              My technical understanding and creative mindset enable me to quickly discover customers' pain points and assemble originative solutions accordingly. This has been my drive and concentration throughout my career and studies.
+            }
+            </p>
+            <p>
+            {
+              Whether it is helping someone understand their wants/desires, resolve their technical issues, or designing a digital or tangible product, I have always put people at the center of my thoughts, actions, and processes. While I am independently motivated, I appreciate collective efforts and collaborate productively within group settings.
+
+            }
+            </p>
+            <p>
+            {
+              Furthermore, my innovation, problem-solving, and critical thinking abilities will support any continued organizational efforts.
+            }
+            </p>
+            <p>
+            {
+              I am most passionate about constructing and refining design models that wow users with their usefulness. This is the cornerstone of establishing the foundation for client growth and retention, which inevitably drives success.
+            }
+            </p>
+            <p>
+
+              Core Expertise:
+              <ul>
+              <li> Project Management </li>
+              <li> UI/UX Design </li>
+              <li> User Engagement </li>
+              <li> Usability Testing </li>
+              <li> Prototyping </li>
+              <li> Front-End Development </li>
+              </ul>
+
+            </p>
+            <p>
+            {
+
+            }
+            </p>
+
+
+
+
+
+
+
+Searching for a professional with technical proficiency in UX/UI design, usability testing, and project management?
+We should connect! You can reach me here or via email at laciastko@gmail.com.
               }
             </p>
             <p>
