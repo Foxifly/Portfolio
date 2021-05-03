@@ -68,7 +68,7 @@ class AboutMe extends Component {
 
 
     );
-  } else if (currentState == false) {
+  } else if (currentState === false) {
 
     return (
       <article className="about">
