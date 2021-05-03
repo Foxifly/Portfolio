@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       <footer aria-labelledby="copyright">
         <h5 aria-describedby="rights-reserved" className="copyright">
-          Copyright 2018 - Lindsay A Ciastko
+          Copyright 2021 - Lindsay A Ciastko
         </h5>
         <h6 aria-describedby="copyright" className="rights-reserved">
           All Rights Reserved
