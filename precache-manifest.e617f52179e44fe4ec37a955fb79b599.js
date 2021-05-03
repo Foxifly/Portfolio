@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/albion-college-logo.a8857c2c.png"
   },
   {
-    "revision": "907a1265ffd95d43c4e0",
+    "revision": "2b9c1d72722b5d98c0cd",
     "url": "/static/css/main.6a50f451.chunk.css"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/bullhornlogo.93903e25.png"
   },
   {
-    "revision": "907a1265ffd95d43c4e0",
-    "url": "/static/js/main.907a1265.chunk.js"
+    "revision": "2b9c1d72722b5d98c0cd",
+    "url": "/static/js/main.2b9c1d72.chunk.js"
   },
   {
     "revision": "4bb016fb2ed69fee274d208fe153d9e8",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/BuildWebsiteUIs-Credential.14bfe962.png"
   },
   {
-    "revision": "4bf8d847c2c3c7031206cad070a6383c",
+    "revision": "f6cca646a60571a6d1b90a44e50eeaf9",
     "url": "/index.html"
   }
 ];
