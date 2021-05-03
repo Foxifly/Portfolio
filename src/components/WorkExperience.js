@@ -10,7 +10,7 @@ render() {
     <article className="work-experience">
     <div aria-hidden="true" className="anchor" id="work-experience"></div>
     <div className="title-heading-wrapper">
-      <h2>work-experience</h2>
+      <h2>Work Experience</h2>
       </div>
       <div className="work-experience-container">
       {

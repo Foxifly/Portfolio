@@ -17,8 +17,8 @@ class Main extends Component {
         <MainLanding />
         <AboutMe />
         <WorkExperience workExperience={workExperience} />
-        <Education courseWork={courseWork} />
         <Contact />
+        <Education courseWork={courseWork} />
         <Projects projectList={projectList} />
         <Footer />
       </main>
