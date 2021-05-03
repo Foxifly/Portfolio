@@ -12,7 +12,7 @@ class Skils extends Component {
         </h2>
 
         <p aria-labelledby="skills" className="skills-paragraph">
-        <ul className="skills">
+        <ul className="skills-list">
         <li>Usability Testing</li>
         <li>Computer Science</li>
         <li>User Interaction Design</li>
