@@ -16,11 +16,12 @@ class Projects extends Component {
           {currProjectList.map(project => {
             return <Project key={project.name} projectInfo={project} />;
           })}
+            </div>
 
           <div className="title-heading-wrapper">
             <h2>Older Projects</h2>
             </div>
-        </div>
+
         <div className="project-container">
           {projectList.map(project => {
             return <Project key={project.name} projectInfo={project} />;
