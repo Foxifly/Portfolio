@@ -9,6 +9,12 @@
       '. downW downW . ';
   }
 
+  .skills-list {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+
   .nav-container {
     margin: 0 auto;
   }
@@ -23,6 +29,14 @@
     width: 90%;
     padding: 10px;
     border-radius: 50px;
+  }
+}
+
+@media screen and (max-height: 720px) {
+  .skills-list {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
   }
 }
 
