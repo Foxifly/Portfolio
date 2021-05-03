@@ -9,12 +9,6 @@
       '. downW downW . ';
   }
 
-  .skills-list {
-    columns: 1;
-    -webkit-columns: 1;
-    -moz-columns: 1;
-  }
-
   .nav-container {
     margin: 0 auto;
   }
@@ -32,7 +26,7 @@
   }
 }
 
-@media screen and (max-height: 720px) {
+@media screen and (max-width: 720px) {
   .skills-list {
     columns: 2;
     -webkit-columns: 2;
@@ -88,11 +82,6 @@
   .image-wrapper {
     margin-top: 10px;
   }
-  .skills-list {
-    columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
-  }
 }
 
 @media screen and (max-width: 1020px) {
@@ -143,6 +132,12 @@
 }
 
 @media screen and (max-width: 520px) {
+  .skills-list {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
+
   .nav-container a {
     justify-self: center;
     float: left;
