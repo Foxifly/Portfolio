@@ -1,8 +1,7 @@
 const work = [
   {
     "key": "1",
-    "name": "Bullhorn",
-    "type": "Front End Development",
+    "name": "Technical Operations Engineer",
     "logo": require("../img/bullhornlogo.png"),
     "date": "October 2020 - Present",
     "description": "Becoming a Technical Operations Engineer means I am the highest point of escalation in resolving complex technical and custom application-related inquiries. I maintain a collaborative and teamwork approach with engineering, support, professional services, sales engineering teams to ensure efficient technical solutions.",
@@ -10,27 +9,19 @@ const work = [
   },
   {
     "key": "2",
-    "name": "Codecademy",
-    "type": "Building Web Applications",
-    "logo": require("../img/codecademy-logo.png"),
-    "date": "April 2018 - June 2018",
-    "description": "Learned how to develop interactive front-end applications using JavaScript, Object Oriented Javascript, and React.JS.",
-    "long_description": "Completed an 8 week interactive course that discussed the basics of JavaScript, Object Oriented Javascript, and React.JS. To complete the program, the final capstone project was a React Application that connects with the Spotify API. This application allowed users to search for songs from spotify, create a playlist, and push that playlist on Spotify. This project taught me how to utilize requests, React, and JavaScript to create my first React project.",
-    "certificate": require("../img/FrontEndApps-Credential.png"),
-    "certificate_url": "https://www.credential.net/9mf16v0r",
-    "course_url": "https://help.codecademy.com/hc/en-us/articles/115000727594-What-curriculum-is-covered-in-Build-Front-End-Apps-from-Scratch"
+    "name": "Enterprise Support Analyst",
+    "logo": require("../img/bullhornlogo.png"),
+    "date": "July 2019 - October 2021",
+    "description": "I resolved highly complex technical and application-related inquiries on software products while cultivating productive and long-term business relationships with the fast-paced, strategic enterprise client accounts. I also troubleshoot software application issues by translating technical root cause, escalating when deemed as necessary.",
+    "long_description": "I resolved highly complex technical and application-related inquiries on software products while cultivating productive and long-term business relationships with the fast-paced, strategic enterprise client accounts. I also troubleshoot software application issues by translating technical root cause, escalating when deemed as necessary. Also, I coordinated bi-weekly calls with Bullhorn's top enterprise clients to review open Support tickets to meet customer requirements. I conceptualized with the Product Management department regarding innovation on new product/feature roll-outs. Moreover, I identified high-priority issues and engaged the Product Management and Software Engineering in problem resolution. I was directly promoted into the role as a Tier 2 Support Analyst instead of starting in Tier 1 Support Analyst. Before promotion, I ended with a 99% Ticket Comment and Initial Response SLA and Consistently exceeded target metrics and received over 90% CSATs (customer surveys). Additionally, I was successfully trained and cross-trained in ATS and VMS.",
   },
   {
     "key": "3",
-    "name": "Codecademy",
-    "type": "Building Website UIs",
-    "logo": require("../img/codecademy-logo.png"),
-    "date": "April 2018 - June 2018",
-    "description": "Studied in-depth concepts of website usability, accessibility, color theory, typography, and layouts using HTML and CSS.",
-    "long_description": "Completed an 8 week interactive course that discussed the design aspect of HTML and CSS. Covered topics in color theory, typography, and layouts. Additionally, discussed the accessibility aspect of web design. Learned about ARIA roles and labels and how they are utilized and beneficial in everyday HTML. For the capstone project, I took existing HTML and CSS to redesign an imaginary eCommerence website. I made the website responsive using CSS Grid, and added colors for a more user friendly UI. ",
-    "certificate": require("../img/BuildWebsiteUIs-Credential.png"),
-    "certificate_url": "https://www.credential.net/bjazfapw",
-    "course_url": "https://help.codecademy.com/hc/en-us/articles/115003852494-What-curriculum-is-covered-in-Build-Website-UIs"
+    "name": "CrossLink Professional Tax Solutions",
+    "logo": require("../img/crosslink.jpeg"),
+    "date": "December 2016 - July 2019",
+    "description": "I administered over 50 daily calls, emails, and chat communications from customers using CrossLink Professional Tax Software in this role. I also facilitated documentation and reporting of bugs to Quality Assurance for the upcoming release of the new CrossLink Online product.",
+    "long_description": "I administered over 50 daily calls, emails, and chat communications from customers using CrossLink Professional Tax Software in this role. I also facilitated documentation and reporting of bugs to Quality Assurance for the upcoming release of the new CrossLink Online product. I also oversaw technical support to customers with IRS concerns, banking issues, tax return questions, and software errors. At the same time, I fostered a high-performing department by consistently assisting customers with networking and sharing concerns. My work also allowed me to collaborate with Quality Assurance on beta testing new product builds; facilitated preparation for CrossLink Online release.",
   }
 
 ]
