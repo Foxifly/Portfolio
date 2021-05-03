@@ -38,32 +38,8 @@ class Work extends Component {
                 <h4 className="date">{course.date}</h4>
               </div>
 
-              <div className="cert-img-wrapper">
-              </div>
-
               <div aria-labelledby="name" aria-describedby="description" className="description-wrapper">
                 <p className="description">{course.long_description}</p>
-              </div>
-
-              <div aria-labelledby="name" aria-describedby="description" className="course-link-wrapper-1">
-                <a
-                  className="edu-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Certificate
-                </a>
-              </div>
-
-              <div aria-labelledby="name" aria-describedby="description" className="course-link-wrapper-2">
-                <a
-                  className="edu-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href={course.course_url}
-                >
-                  Course
-                </a>
               </div>
 
               <div aria-labelledby="name" aria-describedby="description" className="close-button-wrapper">
