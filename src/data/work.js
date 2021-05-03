@@ -1,4 +1,4 @@
-const education = [
+const work = [
   {
     "key": "1",
     "name": "Bullhorn",
@@ -6,24 +6,8 @@ const education = [
     "logo": require("../img/bullhornlogo.png"),
     "date": "October 2020 - Present",
     "description": "Becoming a Technical Operations Engineer means I am the highest point of escalation in resolving complex technical and custom application-related inquiries. I maintain a collaborative and teamwork approach with engineering, support, professional services, sales engineering teams to ensure efficient technical solutions.",
-    "long_description": "
-    Becoming a Technical Operations Engineer means I am the highest point of escalation in resolving complex technical and custom application-related inquiries. I maintain a collaborative and teamwork approach with engineering, support, professional services, sales engineering teams to ensure efficient technical solutions.
-
-    I also consult with Enterprise Support Analysts, Database Administrators, and System Engineers to resolve highly complex software and technical issues. One of my main tasks is to perform custom automation with Release Engineering to deploy changes to the company\'s
-    testing and production environments.
-
-    Moreover, I facilitate Quality Assurance of code changes to custom applications and complete code review with the engineering team. I monitor the custom application environment and work with Systems Engineers to maintain that infrastructure. I also escalate trouble tickets and priority issues to management with speed and agility to match the urgency of the customer.
-
-
-    Accomplishments:
-    - Successfully cross-trained in the Bullhorn Time and Expense
-    - Efficiently handled and managed 20+ tickets weekly
-    - Developed proficiency in SQL and at qualifying bugs to development
-
-    ",
-    "certificate": require("../img/FrontEndDev-Certificate.svg"),
-    "certificate_url": "https://confirm.udacity.com/WKVSX4PP",
-    "course_url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
+    "long_description": "  Becoming a Technical Operations Engineer means I am the highest point of escalation in resolving complex technical and custom application-related inquiries. I maintain a collaborative and teamwork approach with engineering, support, professional services, sales engineering teams to ensure efficient technical solutions.  I also consult with Enterprise Support Analysts, Database Administrators, and System Engineers to resolve highly complex software and technical issues. One of my main tasks is to perform custom automation with Release Engineering to deploy changes to the company\'s
+    testing and production environments  Moreover, I facilitate Quality Assurance to code changes to custom applications and complete code review with the engineering team. I monitor the custom application environment and work with Systems Engineers to maintain that infrastructure. I also escalate trouble tickets and priority issues to management with speed and agility to match the customer's urgency.    ",
   },
   {
     "key": "2",
@@ -52,4 +36,4 @@ const education = [
 
 ]
 
-export default education;
+export default work;
