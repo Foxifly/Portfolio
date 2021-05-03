@@ -6,7 +6,7 @@ const data = [
     "date": "September 2018",
     "github": "https://github.com/Foxifly/Udacity-Map-Project",
     "demo": "https://foxifly.github.io/Udacity-Map-Project/",
-    "bio": "Part of the final project for Udacity's Front End Course, Spur of the Moment is an accessibility friendly application brought to life using Google Maps, Yelp, and more."
+    "bio": "The API keys need to be replaced for this application to function. Part of the final project for Udacity's Front End Course, Spur of the Moment is an accessibility friendly application brought to life using Google Maps, Yelp, and more."
   },
   {
     "name": "Arcade Game Clone",
@@ -33,7 +33,7 @@ const data = [
     "date": "Ongoing",
     "github": "https://github.com/Foxifly/Fox-Bot",
     "demo": "https://plug.dj/foxdenedm",
-    "bio": "Fox Bot is an chat application created using Node.js for a music sharing site, Plug.dj. This bot creates several calls to Plug.dj's API to perform its functions. "
+    "bio": "NOTE - Plug.dj has been shut down and no longer functions. Fox Bot is an chat application created using Node.js for a music sharing site, Plug.dj. This bot creates several calls to Plug.dj's API to perform its functions. "
   },
   {
     "name": "Fox Den EDM Website",
@@ -41,7 +41,7 @@ const data = [
     "language": ["html5", "css3-alt", "sass", "js-square", "gulp"],
     "date": "November 2018",
     "github": "https://github.com/Foxifly/Fox-Den-Site-WIP",
-    "demo": "https://foxdenedm.com/secretagentman",
+    "demo": "https://den.foxdenedm.com",
     "bio": "Built a website to go along with Fox Bot for a music sharing site, Plug.dj. This website connects to Fox Bot's databases to pull in live data and statistics."
   },
   {
