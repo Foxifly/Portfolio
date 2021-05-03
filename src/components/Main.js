@@ -10,7 +10,7 @@ import MainLanding from "./MainLanding";
 
 class Main extends Component {
   render() {
-    const { courseWork, projectList } = this.props;
+    const { courseWork, projectList, workExperience } = this.props;
     return (
       <main className="App">
         <NavBar />
