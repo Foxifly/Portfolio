@@ -20,7 +20,7 @@ const work = [
   {
     "key": "3",
     "name": "CrossLink Professional Tax Solutions",
-    "type": "CrossLink Professional Tax Solutions",
+    "type": "Technical Support Analyst II",
     "logo": require("../img/crosslink.jpeg"),
     "date": "December 2016 - July 2019",
     "description": "I administered over 50 daily calls, emails, and chat communications from customers using CrossLink Professional Tax Software in this role. I also facilitated documentation and reporting of bugs to Quality Assurance for the upcoming release of the new CrossLink Online product.",
