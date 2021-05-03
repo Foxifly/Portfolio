@@ -1,12 +1,26 @@
 const education = [
   {
     "key": "1",
-    "name": "Udacity",
+    "name": "Bullhorn",
     "type": "Front End Development",
-    "logo": require("../img/udacity-logo.png"),
-    "date": "April 2018 - October 2018",
-    "description": "Nanodegree scholarship obtained through Grow with Google April 2018. Completed 7 projects over the course of six months.",
-    "long_description": "I was awarded a Grow with Google scholarship for Udacity’s Front End Development Nanodegree. This course taught me advanced topics in HTML, CSS, JQuery, JavaScript, and React. At the end of the whole program, I was able to build my own accessibility-friendly map application, Spur of the Moment, that integrated with the Google Maps, Yelp, HERE, and PetFinder APIs. Though there were some challenging moments working on this project, I enjoyed working on it every step of the way. I am proud of what I was able to accomplish with Udacity's Nanodegree.",
+    "logo": require("../img/bullhornlogo.png"),
+    "date": "October 2020 - Present",
+    "description": "Becoming a Technical Operations Engineer means I am the highest point of escalation in resolving complex technical and custom application-related inquiries. I maintain a collaborative and teamwork approach with engineering, support, professional services, sales engineering teams to ensure efficient technical solutions.",
+    "long_description": "
+    Becoming a Technical Operations Engineer means I am the highest point of escalation in resolving complex technical and custom application-related inquiries. I maintain a collaborative and teamwork approach with engineering, support, professional services, sales engineering teams to ensure efficient technical solutions.
+
+    I also consult with Enterprise Support Analysts, Database Administrators, and System Engineers to resolve highly complex software and technical issues. One of my main tasks is to perform custom automation with Release Engineering to deploy changes to the company's
+    testing and production environments.
+
+    Moreover, I facilitate Quality Assurance of code changes to custom applications and complete code review with the engineering team. I monitor the custom application environment and work with Systems Engineers to maintain that infrastructure. I also escalate trouble tickets and priority issues to management with speed and agility to match the urgency of the customer.
+
+
+    Accomplishments:
+    - Successfully cross-trained in the Bullhorn Time and Expense
+    - Efficiently handled and managed 20+ tickets weekly
+    - Developed proficiency in SQL and at qualifying bugs to development
+
+    ",
     "certificate": require("../img/FrontEndDev-Certificate.svg"),
     "certificate_url": "https://confirm.udacity.com/WKVSX4PP",
     "course_url": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
