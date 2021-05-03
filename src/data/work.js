@@ -21,7 +21,7 @@ const work = [
     "key": "3",
     "name": "CrossLink Professional Tax Solutions",
     "type": "Technical Support Analyst II",
-    "logo": require("../img/crosslink.jpeg"),
+    "logo": require("../img/crosslink.png"),
     "date": "December 2016 - July 2019",
     "description": "I administered over 50 daily calls, emails, and chat communications from customers using CrossLink Professional Tax Software in this role. I also facilitated documentation and reporting of bugs to Quality Assurance for the upcoming release of the new CrossLink Online product.",
     "long_description": "I administered over 50 daily calls, emails, and chat communications from customers using CrossLink Professional Tax Software in this role. I also facilitated documentation and reporting of bugs to Quality Assurance for the upcoming release of the new CrossLink Online product. I also oversaw technical support to customers with IRS concerns, banking issues, tax return questions, and software errors. At the same time, I fostered a high-performing department by consistently assisting customers with networking and sharing concerns. My work also allowed me to collaborate with Quality Assurance on beta testing new product builds; facilitated preparation for CrossLink Online release.",
