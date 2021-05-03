@@ -88,9 +88,15 @@
   .image-wrapper {
     margin-top: 10px;
   }
+  .skills-list {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+  }
 }
 
 @media screen and (max-width: 1020px) {
+
   .main-landing {
     grid-template-areas:
       'nameW nameW nameW nameW'
