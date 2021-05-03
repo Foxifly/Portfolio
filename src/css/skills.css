@@ -4,10 +4,11 @@
 -moz-columns: 2;
 }
 .skill {
-  margin: 0;
+  width:70%;
+  margin: 0 auto;
   padding: 50px 0 50px 0;
   border-top: 1px solid #c3c0c7;
-  text-align: center;
+
 }
 
 .skills {
