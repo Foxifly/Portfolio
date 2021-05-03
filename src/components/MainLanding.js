@@ -126,7 +126,7 @@ class MainLanding extends Component {
             <a href="#education">
               <div className="nav-wrapper-b">EDUCATION</div>
             </a>
-            <a href="#work-experiece">
+            <a href="#work-experience">
               <div className="nav-wrapper-d">EXPERIENCE</div>
             </a>
 
