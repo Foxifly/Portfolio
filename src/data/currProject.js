@@ -1,4 +1,4 @@
-const data = [
+const currProject = [
   {
     "name": "Spur of the Moment",
     "language": ["html5", "css3-alt", "js-square", "react"],
@@ -28,4 +28,4 @@ const data = [
   }
 ]
 
-export default data;
+export default currProject;
