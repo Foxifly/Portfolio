@@ -1,7 +1,7 @@
 const work = [
   {
     "key": "1",
-    "name": "Technical Operations Engineer",
+    "name": "Bullhorn",
     "type": "Technical Operations Engineer",
     "logo": require("../img/bullhornlogo.png"),
     "date": "October 2020 - Present",
@@ -10,7 +10,7 @@ const work = [
   },
   {
     "key": "2",
-    "name": "Enterprise Support Analyst",
+    "name": "Bullhornt",
     "type": "Enterprise Support Analyst",
     "logo": require("../img/bullhornlogo.png"),
     "date": "July 2019 - October 2021",
