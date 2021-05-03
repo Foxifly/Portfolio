@@ -9,7 +9,7 @@ const education = [
     "long_description": "
     Becoming a Technical Operations Engineer means I am the highest point of escalation in resolving complex technical and custom application-related inquiries. I maintain a collaborative and teamwork approach with engineering, support, professional services, sales engineering teams to ensure efficient technical solutions.
 
-    I also consult with Enterprise Support Analysts, Database Administrators, and System Engineers to resolve highly complex software and technical issues. One of my main tasks is to perform custom automation with Release Engineering to deploy changes to the company's
+    I also consult with Enterprise Support Analysts, Database Administrators, and System Engineers to resolve highly complex software and technical issues. One of my main tasks is to perform custom automation with Release Engineering to deploy changes to the company\'s
     testing and production environments.
 
     Moreover, I facilitate Quality Assurance of code changes to custom applications and complete code review with the engineering team. I monitor the custom application environment and work with Systems Engineers to maintain that infrastructure. I also escalate trouble tickets and priority issues to management with speed and agility to match the urgency of the customer.
