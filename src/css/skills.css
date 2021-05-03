@@ -5,9 +5,6 @@
   list-style:none;
 }
 .skills-list li {
-  columns: 3;
--webkit-columns: 3;
--moz-columns: 3;
   list-style:none;
 }
 .skill {
