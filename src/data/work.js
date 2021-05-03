@@ -2,6 +2,7 @@ const work = [
   {
     "key": "1",
     "name": "Technical Operations Engineer",
+    "type": "Technical Operations Engineer",
     "logo": require("../img/bullhornlogo.png"),
     "date": "October 2020 - Present",
     "description": "Becoming a Technical Operations Engineer means I am the highest point of escalation in resolving complex technical and custom application-related inquiries. I maintain a collaborative and teamwork approach with engineering, support, professional services, sales engineering teams to ensure efficient technical solutions.",
@@ -10,6 +11,7 @@ const work = [
   {
     "key": "2",
     "name": "Enterprise Support Analyst",
+    "type": "Enterprise Support Analyst",
     "logo": require("../img/bullhornlogo.png"),
     "date": "July 2019 - October 2021",
     "description": "I resolved highly complex technical and application-related inquiries on software products while cultivating productive and long-term business relationships with the fast-paced, strategic enterprise client accounts. I also troubleshoot software application issues by translating technical root cause, escalating when deemed as necessary.",
@@ -18,6 +20,7 @@ const work = [
   {
     "key": "3",
     "name": "CrossLink Professional Tax Solutions",
+    "type": "CrossLink Professional Tax Solutions",
     "logo": require("../img/crosslink.jpeg"),
     "date": "December 2016 - July 2019",
     "description": "I administered over 50 daily calls, emails, and chat communications from customers using CrossLink Professional Tax Software in this role. I also facilitated documentation and reporting of bugs to Quality Assurance for the upcoming release of the new CrossLink Online product.",
