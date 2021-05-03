@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/memorygame.6f22369a.jpg"
   },
   {
-    "revision": "d9946bdbecf10dee5b87",
-    "url": "/static/css/main.f83f640e.chunk.css"
+    "revision": "2d73cec1027b58e06f0e",
+    "url": "/static/css/main.ab91605a.chunk.css"
   },
   {
-    "revision": "f638dae8de3926b366e7",
-    "url": "/static/js/1.f638dae8.chunk.js"
+    "revision": "8bb96d797794508b1e8f",
+    "url": "/static/js/1.8bb96d79.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/static/media/froggerclone.a084f2b7.jpg"
   },
   {
-    "revision": "d9946bdbecf10dee5b87",
-    "url": "/static/js/main.d9946bdb.chunk.js"
+    "revision": "2d73cec1027b58e06f0e",
+    "url": "/static/js/main.2d73cec1.chunk.js"
   },
   {
     "revision": "4bb016fb2ed69fee274d208fe153d9e8",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/BuildWebsiteUIs-Credential.14bfe962.png"
   },
   {
-    "revision": "7796e6c839d92585237107134fe8e310",
+    "revision": "4a8edfe5a84b9e72dc3f36b80f4ce870",
     "url": "/index.html"
   }
 ];
