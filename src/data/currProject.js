@@ -1,30 +1,21 @@
 const currProject = [
   {
-    "name": "Spur of the Moment",
+    "name": "Tip The Tails",
+    "language": ["s", "css3-alt", "js-square"],
+    "image": require("../img/tipthetails.png"),
+    "date": "October 2020 - Present",
+    "github": "https://tipthetails.com/",
+    "demo": "https://www.etsy.com/shop/tipthetails/",
+    "bio": "I currently run, manage, and maintain a small business called Tip The Tails where I create and sell horse products including Tail Bags, wellness products, and more."
+  },
+  {
+    "name": "üWave",
     "language": ["html5", "css3-alt", "js-square", "react"],
-    "image": require("../img/spurofthemoment.jpg"),
-    "date": "September 2018",
-    "github": "https://github.com/Foxifly/Udacity-Map-Project",
-    "demo": "https://foxifly.github.io/Udacity-Map-Project/",
-    "bio": "Part of the final project for Udacity's Front End Course, Spur of the Moment is an accessibility friendly application brought to life using Google Maps, Yelp, and more."
-  },
-  {
-    "name": "Arcade Game Clone",
-    "language": ["html5", "css3-alt", "js-square"],
-    "image": require("../img/froggerclone.jpg"),
-    "date": "August 2018",
-    "github": "https://github.com/Foxifly/Arcade-Game-Clone",
-    "demo": "https://udacity.lindsayciastko.com/FroggerClone/Arcade%20Game%20Clone/",
-    "bio": "Used Object Oriented JavaScript to create a Frogger game clone. As provided by Udacity, students were to create player and enemy entity classes that would spawn on the canvas."
-  },
-  {
-    "name": "Memory Game",
-    "image": require("../img/memorygame.jpg"),
-    "language": ["html5", "css3-alt", "js-square"],
-    "date": "May 2018",
-    "github": "https://github.com/Foxifly/Udacity-Memory-Game",
-    "demo": "https://udacity.lindsayciastko.com/memorygame/",
-    "bio": "This app runs on the browser and generates a matching game for users to play. The goal of the game is to pair each card with a card that has a matching image."
+    "image": require("../img/uwavep.png"),
+    "date": "April 2021 - Present",
+    "github": "https://github.com/Plateam/web",
+    "demo": "https://foxdenedm.com/",
+    "bio": "Contributing and adjusting the open-source code for üWave to create our own settings, layouts, and more to this new music listening platform."
   }
 ]
 
