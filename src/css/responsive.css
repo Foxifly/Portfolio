@@ -171,6 +171,9 @@
   .education-container {
     grid-template-columns: repeat(3, 30%);
   }
+  .work-experience-container {
+    grid-template-columns: repeat(3, 30%);
+  }
 
   .title-heading-wrapper {
     width: 25%;
@@ -201,6 +204,14 @@
   }
 
   .education-content {
+    margin: 20px 0;
+  }
+
+  .work-experience-container {
+    display: block;
+  }
+
+  .work-experience-content {
     margin: 20px 0;
   }
 
