@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "a8857c2c08c82aa493bbb609c136f9af",
-    "url": "/static/media/albion-college-logo.a8857c2c.png"
+    "revision": "4bb016fb2ed69fee274d208fe153d9e8",
+    "url": "/static/media/foxbot.4bb016fb.jpg"
   },
   {
-    "revision": "ab5c6e8c77b49e31a5d6",
-    "url": "/static/css/main.6a50f451.chunk.css"
+    "revision": "dbdad11ff4129400f7ed",
+    "url": "/static/css/main.36a5ccb6.chunk.css"
   },
   {
-    "revision": "d2512d8f475e869a4eb3",
-    "url": "/static/js/1.d2512d8f.chunk.js"
+    "revision": "8bb96d797794508b1e8f",
+    "url": "/static/js/1.8bb96d79.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -18,6 +18,18 @@ self.__precacheManifest = [
   {
     "revision": "c87982ef4d956a2ef909f854b8ff7a1e",
     "url": "/static/media/profile-photo.c87982ef.jpg"
+  },
+  {
+    "revision": "8bf89e75f31e397b0c96ff9c6d8674cd",
+    "url": "/static/media/codecademy-logo.8bf89e75.png"
+  },
+  {
+    "revision": "93903e2510da038c1f697582fea47106",
+    "url": "/static/media/bullhornlogo.93903e25.png"
+  },
+  {
+    "revision": "a8857c2c08c82aa493bbb609c136f9af",
+    "url": "/static/media/albion-college-logo.a8857c2c.png"
   },
   {
     "revision": "b0fc12193fe64c127f0cac63e0930f0b",
@@ -32,20 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/memorygame.6f22369a.jpg"
   },
   {
-    "revision": "8bf89e75f31e397b0c96ff9c6d8674cd",
-    "url": "/static/media/codecademy-logo.8bf89e75.png"
-  },
-  {
-    "revision": "93903e2510da038c1f697582fea47106",
-    "url": "/static/media/bullhornlogo.93903e25.png"
-  },
-  {
-    "revision": "ab5c6e8c77b49e31a5d6",
-    "url": "/static/js/main.ab5c6e8c.chunk.js"
-  },
-  {
-    "revision": "4bb016fb2ed69fee274d208fe153d9e8",
-    "url": "/static/media/foxbot.4bb016fb.jpg"
+    "revision": "dbdad11ff4129400f7ed",
+    "url": "/static/js/main.dbdad11f.chunk.js"
   },
   {
     "revision": "63ec469c9de35de244a5c6d09137e2b8",
@@ -64,6 +64,14 @@ self.__precacheManifest = [
     "url": "/static/media/pixelartmaker.c72e2776.jpg"
   },
   {
+    "revision": "3769406d80159142b3e8d112b8be06a2",
+    "url": "/static/media/tipthetails.3769406d.png"
+  },
+  {
+    "revision": "17352fd425af710ca5d1232e4f3ebc07",
+    "url": "/static/media/uwavep.17352fd4.png"
+  },
+  {
     "revision": "e485d738757d5e303f99c97db628a2f1",
     "url": "/static/media/udacity-logo.e485d738.png"
   },
@@ -80,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/BuildWebsiteUIs-Credential.14bfe962.png"
   },
   {
-    "revision": "78ab861e5c8a4be7d5b7d64890dda9dc",
+    "revision": "709545d082c8ac5a2252e69377773002",
     "url": "/index.html"
   }
 ];
