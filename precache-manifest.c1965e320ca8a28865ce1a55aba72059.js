@@ -1,35 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "a084f2b74becd98ae03e509e4cf6c61c",
-    "url": "/static/media/froggerclone.a084f2b7.jpg"
+    "revision": "6f22369a679a629bb3bcbbf5c5250b21",
+    "url": "/static/media/memorygame.6f22369a.jpg"
   },
   {
-    "revision": "ea9f76d7899253257198",
-    "url": "/static/css/main.9baf1378.chunk.css"
+    "revision": "6ad77d787acfe0a8f2e0",
+    "url": "/static/css/main.ad870ebf.chunk.css"
   },
   {
-    "revision": "fab0e573bb669d2c9163",
-    "url": "/static/js/1.fab0e573.chunk.js"
+    "revision": "a1f98d45edb8752f754c",
+    "url": "/static/js/1.a1f98d45.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "8bf89e75f31e397b0c96ff9c6d8674cd",
-    "url": "/static/media/codecademy-logo.8bf89e75.png"
-  },
-  {
     "revision": "c87982ef4d956a2ef909f854b8ff7a1e",
     "url": "/static/media/profile-photo.c87982ef.jpg"
   },
   {
-    "revision": "f0e4ec632a55ce36ce7104eea1ce14ed",
-    "url": "/static/media/FrontEndApps-Credential.f0e4ec63.png"
+    "revision": "8bf89e75f31e397b0c96ff9c6d8674cd",
+    "url": "/static/media/codecademy-logo.8bf89e75.png"
   },
   {
-    "revision": "14bfe96246b2044e2fdd06ee6d8e6bcc",
-    "url": "/static/media/BuildWebsiteUIs-Credential.14bfe962.png"
+    "revision": "93903e2510da038c1f697582fea47106",
+    "url": "/static/media/bullhornlogo.93903e25.png"
   },
   {
     "revision": "a8857c2c08c82aa493bbb609c136f9af",
@@ -40,12 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/spurofthemoment.b0fc1219.jpg"
   },
   {
-    "revision": "ea9f76d7899253257198",
-    "url": "/static/js/main.ea9f76d7.chunk.js"
+    "revision": "a084f2b74becd98ae03e509e4cf6c61c",
+    "url": "/static/media/froggerclone.a084f2b7.jpg"
   },
   {
-    "revision": "6f22369a679a629bb3bcbbf5c5250b21",
-    "url": "/static/media/memorygame.6f22369a.jpg"
+    "revision": "6ad77d787acfe0a8f2e0",
+    "url": "/static/js/main.6ad77d78.chunk.js"
   },
   {
     "revision": "4bb016fb2ed69fee274d208fe153d9e8",
@@ -76,11 +72,15 @@ self.__precacheManifest = [
     "url": "/static/media/FrontEndDev-Certificate.765f4e18.svg"
   },
   {
-    "revision": "93903e2510da038c1f697582fea47106",
-    "url": "/static/media/bullhornlogo.93903e25.png"
+    "revision": "f0e4ec632a55ce36ce7104eea1ce14ed",
+    "url": "/static/media/FrontEndApps-Credential.f0e4ec63.png"
   },
   {
-    "revision": "d108515057e4e717a36a7941ed3bfee3",
+    "revision": "14bfe96246b2044e2fdd06ee6d8e6bcc",
+    "url": "/static/media/BuildWebsiteUIs-Credential.14bfe962.png"
+  },
+  {
+    "revision": "73d5617813c592f62a1925884870ed89",
     "url": "/index.html"
   }
 ];
