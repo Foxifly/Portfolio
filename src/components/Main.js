@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe";
 import Education from "./Education";
 import WorkExperience from "./WorkExperience";
 import Projects from "./Projects";
+import SocialMedia from "./SocialMedia";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import MainLanding from "./MainLanding";
@@ -19,6 +20,7 @@ class Main extends Component {
         <WorkExperience workExperience={workExperience} />
         <Contact />
         <Education courseWork={courseWork} />
+        <SocialMedia/>
         <Projects projectList={projectList} />
         <Footer />
       </main>
